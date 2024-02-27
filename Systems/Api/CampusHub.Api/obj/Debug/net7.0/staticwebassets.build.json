@@ -1,0 +1,54 @@
+{
+  "Version": 1,
+  "Hash": "ICUnZdvZnamYHIG6UhqMAxid/IjVv10/sfJg11sv+J4=",
+  "Source": "CampusHub.Api",
+  "BasePath": "_content/CampusHub.Api",
+  "Mode": "Default",
+  "ManifestType": "Build",
+  "ReferencedProjectsConfiguration": [],
+  "DiscoveryPatterns": [
+    {
+      "Name": "CampusHub.Api/wwwroot",
+      "Source": "CampusHub.Api",
+      "ContentRoot": "/Users/ibrohim/Desktop/CampusHub/Systems/Api/CampusHub.Api/wwwroot/",
+      "BasePath": "_content/CampusHub.Api",
+      "Pattern": "**"
+    }
+  ],
+  "Assets": [
+    {
+      "Identity": "/Users/ibrohim/Desktop/CampusHub/Systems/Api/CampusHub.Api/obj/Debug/net7.0/scopedcss/bundle/CampusHub.Api.styles.css",
+      "SourceId": "CampusHub.Api",
+      "SourceType": "Computed",
+      "ContentRoot": "/Users/ibrohim/Desktop/CampusHub/Systems/Api/CampusHub.Api/obj/Debug/net7.0/scopedcss/bundle/",
+      "BasePath": "_content/CampusHub.Api",
+      "RelativePath": "CampusHub.Api.styles.css",
+      "AssetKind": "All",
+      "AssetMode": "CurrentProject",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "ScopedCss",
+      "AssetTraitValue": "ApplicationBundle",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "/Users/ibrohim/Desktop/CampusHub/Systems/Api/CampusHub.Api/obj/Debug/net7.0/scopedcss/bundle/CampusHub.Api.styles.css"
+    },
+    {
+      "Identity": "/Users/ibrohim/Desktop/CampusHub/Systems/Api/CampusHub.Api/obj/Debug/net7.0/scopedcss/projectbundle/CampusHub.Api.bundle.scp.css",
+      "SourceId": "CampusHub.Api",
+      "SourceType": "Computed",
+      "ContentRoot": "/Users/ibrohim/Desktop/CampusHub/Systems/Api/CampusHub.Api/obj/Debug/net7.0/scopedcss/projectbundle/",
+      "BasePath": "_content/CampusHub.Api",
+      "RelativePath": "CampusHub.Api.bundle.scp.css",
+      "AssetKind": "All",
+      "AssetMode": "Reference",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "ScopedCss",
+      "AssetTraitValue": "ProjectBundle",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "/Users/ibrohim/Desktop/CampusHub/Systems/Api/CampusHub.Api/obj/Debug/net7.0/scopedcss/projectbundle/CampusHub.Api.bundle.scp.css"
+    }
+  ]
+}

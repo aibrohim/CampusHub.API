@@ -1,0 +1,49 @@
+﻿<Properties StartupConfiguration="{A946231A-BE1C-4C84-B098-7E8541E894A0}|http">
+  <MonoDevelop.Ide.Workbench ActiveDocument="Services/CampusHub.Services.Modules/Bootstrapper.cs">
+    <Files>
+      <File FileName="Services/CampusHub.Services.Modules/Bootstrapper.cs" Line="6" Column="2" />
+    </Files>
+    <Pads>
+      <Pad Id="ProjectPad">
+        <State name="__root__">
+          <Node name="CampusHub" expanded="True">
+            <Node name="Services" expanded="True">
+              <Node name="CampusHub.Services.Modules" expanded="True" selected="True">
+                <Node name="Modules" expanded="True" />
+              </Node>
+            </Node>
+            <Node name="Shared" expanded="True" />
+            <Node name="Systems" expanded="True">
+              <Node name="Api" expanded="True">
+                <Node name="CampusHub.Api" expanded="True">
+                  <Node name="Controllers" expanded="True">
+                    <Node name="Models" expanded="True">
+                      <Node name="Course" expanded="True" />
+                      <Node name="Room" expanded="True" />
+                    </Node>
+                  </Node>
+                  <Node name="Middlewares" expanded="True" />
+                </Node>
+                <Node name="CampusHub.Api.Settings" expanded="True" />
+              </Node>
+            </Node>
+          </Node>
+        </State>
+      </Pad>
+    </Pads>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.ItemProperties.Systems.Api.CampusHub.Api PreferredExecutionTarget="/Applications/Arc.app" />
+  <DisabledProjects>
+    <String>Services/NetSchool.Services.Logger/NetSchool.Services.Logger.csproj</String>
+    <String>Services/NetSchool.Services.Settings/NetSchool.Services.Settings.csproj</String>
+    <String>Shared/NetSchool.Library/NetSchool.Common.csproj</String>
+    <String>Systems/NetSchool.Api/NetSchool.Api.csproj</String>
+    <String>Systems/Api/CampusHub.Api/fasd/fasd.csproj</String>
+  </DisabledProjects>
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+  <MultiItemStartupConfigurations />
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+</Properties>

@@ -1,0 +1,12 @@
+/Users/ibrohim/Desktop/CampusHub/Data/CampusHub.Context.Entities/bin/Debug/net7.0/CampusHub.Context.Entities.deps.json
+/Users/ibrohim/Desktop/CampusHub/Data/CampusHub.Context.Entities/bin/Debug/net7.0/CampusHub.Context.Entities.dll
+/Users/ibrohim/Desktop/CampusHub/Data/CampusHub.Context.Entities/bin/Debug/net7.0/CampusHub.Context.Entities.pdb
+/Users/ibrohim/Desktop/CampusHub/Data/CampusHub.Context.Entities/obj/Debug/net7.0/CampusHub.Context.Entities.csproj.AssemblyReference.cache
+/Users/ibrohim/Desktop/CampusHub/Data/CampusHub.Context.Entities/obj/Debug/net7.0/CampusHub.Context.Entities.GeneratedMSBuildEditorConfig.editorconfig
+/Users/ibrohim/Desktop/CampusHub/Data/CampusHub.Context.Entities/obj/Debug/net7.0/CampusHub.Context.Entities.AssemblyInfoInputs.cache
+/Users/ibrohim/Desktop/CampusHub/Data/CampusHub.Context.Entities/obj/Debug/net7.0/CampusHub.Context.Entities.AssemblyInfo.cs
+/Users/ibrohim/Desktop/CampusHub/Data/CampusHub.Context.Entities/obj/Debug/net7.0/CampusHub.Context.Entities.csproj.CoreCompileInputs.cache
+/Users/ibrohim/Desktop/CampusHub/Data/CampusHub.Context.Entities/obj/Debug/net7.0/CampusHub.Context.Entities.dll
+/Users/ibrohim/Desktop/CampusHub/Data/CampusHub.Context.Entities/obj/Debug/net7.0/refint/CampusHub.Context.Entities.dll
+/Users/ibrohim/Desktop/CampusHub/Data/CampusHub.Context.Entities/obj/Debug/net7.0/CampusHub.Context.Entities.pdb
+/Users/ibrohim/Desktop/CampusHub/Data/CampusHub.Context.Entities/obj/Debug/net7.0/ref/CampusHub.Context.Entities.dll

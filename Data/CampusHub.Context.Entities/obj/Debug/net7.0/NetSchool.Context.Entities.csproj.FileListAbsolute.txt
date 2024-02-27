@@ -1,0 +1,12 @@
+/Users/ibrohim/Desktop/netproject/Data/NetSchool.Context.Entities/bin/Debug/net7.0/NetSchool.Context.Entities.deps.json
+/Users/ibrohim/Desktop/netproject/Data/NetSchool.Context.Entities/bin/Debug/net7.0/NetSchool.Context.Entities.dll
+/Users/ibrohim/Desktop/netproject/Data/NetSchool.Context.Entities/bin/Debug/net7.0/NetSchool.Context.Entities.pdb
+/Users/ibrohim/Desktop/netproject/Data/NetSchool.Context.Entities/obj/Debug/net7.0/NetSchool.Context.Entities.csproj.AssemblyReference.cache
+/Users/ibrohim/Desktop/netproject/Data/NetSchool.Context.Entities/obj/Debug/net7.0/NetSchool.Context.Entities.GeneratedMSBuildEditorConfig.editorconfig
+/Users/ibrohim/Desktop/netproject/Data/NetSchool.Context.Entities/obj/Debug/net7.0/NetSchool.Context.Entities.AssemblyInfoInputs.cache
+/Users/ibrohim/Desktop/netproject/Data/NetSchool.Context.Entities/obj/Debug/net7.0/NetSchool.Context.Entities.AssemblyInfo.cs
+/Users/ibrohim/Desktop/netproject/Data/NetSchool.Context.Entities/obj/Debug/net7.0/NetSchool.Context.Entities.csproj.CoreCompileInputs.cache
+/Users/ibrohim/Desktop/netproject/Data/NetSchool.Context.Entities/obj/Debug/net7.0/NetSchool.Context.Entities.dll
+/Users/ibrohim/Desktop/netproject/Data/NetSchool.Context.Entities/obj/Debug/net7.0/refint/NetSchool.Context.Entities.dll
+/Users/ibrohim/Desktop/netproject/Data/NetSchool.Context.Entities/obj/Debug/net7.0/NetSchool.Context.Entities.pdb
+/Users/ibrohim/Desktop/netproject/Data/NetSchool.Context.Entities/obj/Debug/net7.0/ref/NetSchool.Context.Entities.dll

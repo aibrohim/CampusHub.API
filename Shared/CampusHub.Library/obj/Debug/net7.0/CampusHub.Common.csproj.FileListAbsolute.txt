@@ -1,0 +1,12 @@
+/Users/ibrohim/Desktop/CampusHub/Shared/CampusHub.Library/bin/Debug/net7.0/CampusHub.Common.deps.json
+/Users/ibrohim/Desktop/CampusHub/Shared/CampusHub.Library/bin/Debug/net7.0/CampusHub.Common.dll
+/Users/ibrohim/Desktop/CampusHub/Shared/CampusHub.Library/bin/Debug/net7.0/CampusHub.Common.pdb
+/Users/ibrohim/Desktop/CampusHub/Shared/CampusHub.Library/obj/Debug/net7.0/CampusHub.Common.csproj.AssemblyReference.cache
+/Users/ibrohim/Desktop/CampusHub/Shared/CampusHub.Library/obj/Debug/net7.0/CampusHub.Common.GeneratedMSBuildEditorConfig.editorconfig
+/Users/ibrohim/Desktop/CampusHub/Shared/CampusHub.Library/obj/Debug/net7.0/CampusHub.Common.AssemblyInfoInputs.cache
+/Users/ibrohim/Desktop/CampusHub/Shared/CampusHub.Library/obj/Debug/net7.0/CampusHub.Common.AssemblyInfo.cs
+/Users/ibrohim/Desktop/CampusHub/Shared/CampusHub.Library/obj/Debug/net7.0/CampusHub.Common.csproj.CoreCompileInputs.cache
+/Users/ibrohim/Desktop/CampusHub/Shared/CampusHub.Library/obj/Debug/net7.0/CampusHub.Common.dll
+/Users/ibrohim/Desktop/CampusHub/Shared/CampusHub.Library/obj/Debug/net7.0/refint/CampusHub.Common.dll
+/Users/ibrohim/Desktop/CampusHub/Shared/CampusHub.Library/obj/Debug/net7.0/CampusHub.Common.pdb
+/Users/ibrohim/Desktop/CampusHub/Shared/CampusHub.Library/obj/Debug/net7.0/ref/CampusHub.Common.dll

@@ -1,0 +1,12 @@
+/Users/ibrohim/Desktop/projects/netproject/Shared/NetSchool.Library/bin/Debug/net7.0/NetSchool.Common.deps.json
+/Users/ibrohim/Desktop/projects/netproject/Shared/NetSchool.Library/bin/Debug/net7.0/NetSchool.Common.dll
+/Users/ibrohim/Desktop/projects/netproject/Shared/NetSchool.Library/bin/Debug/net7.0/NetSchool.Common.pdb
+/Users/ibrohim/Desktop/projects/netproject/Shared/NetSchool.Library/obj/Debug/net7.0/NetSchool.Common.csproj.AssemblyReference.cache
+/Users/ibrohim/Desktop/projects/netproject/Shared/NetSchool.Library/obj/Debug/net7.0/NetSchool.Common.GeneratedMSBuildEditorConfig.editorconfig
+/Users/ibrohim/Desktop/projects/netproject/Shared/NetSchool.Library/obj/Debug/net7.0/NetSchool.Common.AssemblyInfoInputs.cache
+/Users/ibrohim/Desktop/projects/netproject/Shared/NetSchool.Library/obj/Debug/net7.0/NetSchool.Common.AssemblyInfo.cs
+/Users/ibrohim/Desktop/projects/netproject/Shared/NetSchool.Library/obj/Debug/net7.0/NetSchool.Common.csproj.CoreCompileInputs.cache
+/Users/ibrohim/Desktop/projects/netproject/Shared/NetSchool.Library/obj/Debug/net7.0/NetSchool.Common.dll
+/Users/ibrohim/Desktop/projects/netproject/Shared/NetSchool.Library/obj/Debug/net7.0/refint/NetSchool.Common.dll
+/Users/ibrohim/Desktop/projects/netproject/Shared/NetSchool.Library/obj/Debug/net7.0/NetSchool.Common.pdb
+/Users/ibrohim/Desktop/projects/netproject/Shared/NetSchool.Library/obj/Debug/net7.0/ref/NetSchool.Common.dll

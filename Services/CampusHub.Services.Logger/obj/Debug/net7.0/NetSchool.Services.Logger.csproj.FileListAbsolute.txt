@@ -1,0 +1,12 @@
+/Users/ibrohim/Desktop/projects/netproject/Services/NetSchool.Services.Logger/bin/Debug/net7.0/NetSchool.Services.Logger.deps.json
+/Users/ibrohim/Desktop/projects/netproject/Services/NetSchool.Services.Logger/bin/Debug/net7.0/NetSchool.Services.Logger.dll
+/Users/ibrohim/Desktop/projects/netproject/Services/NetSchool.Services.Logger/bin/Debug/net7.0/NetSchool.Services.Logger.pdb
+/Users/ibrohim/Desktop/projects/netproject/Services/NetSchool.Services.Logger/obj/Debug/net7.0/NetSchool.Services.Logger.csproj.AssemblyReference.cache
+/Users/ibrohim/Desktop/projects/netproject/Services/NetSchool.Services.Logger/obj/Debug/net7.0/NetSchool.Services.Logger.GeneratedMSBuildEditorConfig.editorconfig
+/Users/ibrohim/Desktop/projects/netproject/Services/NetSchool.Services.Logger/obj/Debug/net7.0/NetSchool.Services.Logger.AssemblyInfoInputs.cache
+/Users/ibrohim/Desktop/projects/netproject/Services/NetSchool.Services.Logger/obj/Debug/net7.0/NetSchool.Services.Logger.AssemblyInfo.cs
+/Users/ibrohim/Desktop/projects/netproject/Services/NetSchool.Services.Logger/obj/Debug/net7.0/NetSchool.Services.Logger.csproj.CoreCompileInputs.cache
+/Users/ibrohim/Desktop/projects/netproject/Services/NetSchool.Services.Logger/obj/Debug/net7.0/NetSchool.Services.Logger.dll
+/Users/ibrohim/Desktop/projects/netproject/Services/NetSchool.Services.Logger/obj/Debug/net7.0/refint/NetSchool.Services.Logger.dll
+/Users/ibrohim/Desktop/projects/netproject/Services/NetSchool.Services.Logger/obj/Debug/net7.0/NetSchool.Services.Logger.pdb
+/Users/ibrohim/Desktop/projects/netproject/Services/NetSchool.Services.Logger/obj/Debug/net7.0/ref/NetSchool.Services.Logger.dll

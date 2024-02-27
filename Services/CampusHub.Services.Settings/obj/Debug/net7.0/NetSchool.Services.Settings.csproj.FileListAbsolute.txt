@@ -1,0 +1,15 @@
+/Users/ibrohim/Desktop/projects/netproject/Services/NetSchool.Services.Settings/bin/Debug/net7.0/NetSchool.Services.Settings.deps.json
+/Users/ibrohim/Desktop/projects/netproject/Services/NetSchool.Services.Settings/bin/Debug/net7.0/NetSchool.Services.Settings.dll
+/Users/ibrohim/Desktop/projects/netproject/Services/NetSchool.Services.Settings/bin/Debug/net7.0/NetSchool.Services.Settings.pdb
+/Users/ibrohim/Desktop/projects/netproject/Services/NetSchool.Services.Settings/bin/Debug/net7.0/NetSchool.Common.dll
+/Users/ibrohim/Desktop/projects/netproject/Services/NetSchool.Services.Settings/bin/Debug/net7.0/NetSchool.Common.pdb
+/Users/ibrohim/Desktop/projects/netproject/Services/NetSchool.Services.Settings/obj/Debug/net7.0/NetSchool.Services.Settings.csproj.AssemblyReference.cache
+/Users/ibrohim/Desktop/projects/netproject/Services/NetSchool.Services.Settings/obj/Debug/net7.0/NetSchool.Services.Settings.GeneratedMSBuildEditorConfig.editorconfig
+/Users/ibrohim/Desktop/projects/netproject/Services/NetSchool.Services.Settings/obj/Debug/net7.0/NetSchool.Services.Settings.AssemblyInfoInputs.cache
+/Users/ibrohim/Desktop/projects/netproject/Services/NetSchool.Services.Settings/obj/Debug/net7.0/NetSchool.Services.Settings.AssemblyInfo.cs
+/Users/ibrohim/Desktop/projects/netproject/Services/NetSchool.Services.Settings/obj/Debug/net7.0/NetSchool.Services.Settings.csproj.CoreCompileInputs.cache
+/Users/ibrohim/Desktop/projects/netproject/Services/NetSchool.Services.Settings/obj/Debug/net7.0/NetSchool.Services.Settings.csproj.CopyComplete
+/Users/ibrohim/Desktop/projects/netproject/Services/NetSchool.Services.Settings/obj/Debug/net7.0/NetSchool.Services.Settings.dll
+/Users/ibrohim/Desktop/projects/netproject/Services/NetSchool.Services.Settings/obj/Debug/net7.0/refint/NetSchool.Services.Settings.dll
+/Users/ibrohim/Desktop/projects/netproject/Services/NetSchool.Services.Settings/obj/Debug/net7.0/NetSchool.Services.Settings.pdb
+/Users/ibrohim/Desktop/projects/netproject/Services/NetSchool.Services.Settings/obj/Debug/net7.0/ref/NetSchool.Services.Settings.dll

@@ -1,0 +1,53 @@
+﻿<Properties StartupConfiguration="{BD424EE3-43CF-42F9-87F5-E5C1CA326589}|http">
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <MonoDevelop.Ide.ItemProperties.Systems.Api.NetSchool.Api PreferredExecutionTarget="/Applications/Arc.app" />
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+  <MonoDevelop.Ide.DebuggingService.Breakpoints />
+  <MonoDevelop.Ide.Workbench ActiveDocument="Systems/NetSchool.Api/Configuration/SwaggerConfiguration.cs">
+    <Files>
+      <File FileName="Systems/NetSchool.Api/Bootstrapper.cs" />
+      <File FileName="Systems/NetSchool.Api/Configuration/AutoMapperConfiguration.cs" />
+      <File FileName="Systems/NetSchool.Api/Program.cs" />
+      <File FileName="Systems/NetSchool.Api/Configuration/ValidatorConfiguration.cs" />
+      <File FileName="Systems/NetSchool.Api/Configuration/CorsConfiguration.cs" />
+      <File FileName="Systems/NetSchool.Api/Configuration/ControllerAndViewsConfiguration.cs" />
+      <File FileName="Systems/NetSchool.Api/Configuration/HealthCheckConfiguration.cs" />
+      <File FileName="Systems/NetSchool.Api/Configuration/HelthChecks/SelfHealthCheck.cs" />
+      <File FileName="Systems/NetSchool.Api/Configuration/LoggerConfiguration.cs" />
+      <File FileName="Systems/NetSchool.Api/appsettings.json" />
+      <File FileName="Systems/NetSchool.Api/App/TestController.cs" />
+      <File FileName="Systems/NetSchool.Api/Configuration/SwaggerConfiguration.cs" Line="9" Column="7" />
+    </Files>
+    <Pads>
+      <Pad Id="ProjectPad">
+        <State name="__root__">
+          <Node name="NetSchool" expanded="True">
+            <Node name="Services" expanded="True">
+              <Node name="NetSchool.Services.Logger" selected="True" />
+            </Node>
+            <Node name="Shared" expanded="True">
+              <Node name="NetSchool.Common" expanded="True">
+                <Node name="Helpers" expanded="True" />
+              </Node>
+            </Node>
+            <Node name="Systems" expanded="True">
+              <Node name="Api" expanded="True">
+                <Node name="NetSchool.Api" expanded="True">
+                  <Node name="Configuration" expanded="True">
+                    <Node name="HelthChecks" expanded="True" />
+                  </Node>
+                </Node>
+              </Node>
+            </Node>
+          </Node>
+        </State>
+      </Pad>
+    </Pads>
+  </MonoDevelop.Ide.Workbench>
+  <MultiItemStartupConfigurations />
+  <DisabledProjects>
+    <String>Services/NetSchool.Services.Logger/NetSchool.Services.Logger.csproj</String>
+    <String>Services/NetSchool.Services.Settings/NetSchool.Services.Settings.csproj</String>
+    <String>Shared/NetSchool.Library/NetSchool.Common.csproj</String>
+  </DisabledProjects>
+</Properties>

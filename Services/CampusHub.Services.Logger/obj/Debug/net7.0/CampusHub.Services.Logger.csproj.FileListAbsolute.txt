@@ -1,0 +1,12 @@
+/Users/ibrohim/Desktop/CampusHub/Services/CampusHub.Services.Logger/bin/Debug/net7.0/CampusHub.Services.Logger.deps.json
+/Users/ibrohim/Desktop/CampusHub/Services/CampusHub.Services.Logger/bin/Debug/net7.0/CampusHub.Services.Logger.dll
+/Users/ibrohim/Desktop/CampusHub/Services/CampusHub.Services.Logger/bin/Debug/net7.0/CampusHub.Services.Logger.pdb
+/Users/ibrohim/Desktop/CampusHub/Services/CampusHub.Services.Logger/obj/Debug/net7.0/CampusHub.Services.Logger.csproj.AssemblyReference.cache
+/Users/ibrohim/Desktop/CampusHub/Services/CampusHub.Services.Logger/obj/Debug/net7.0/CampusHub.Services.Logger.GeneratedMSBuildEditorConfig.editorconfig
+/Users/ibrohim/Desktop/CampusHub/Services/CampusHub.Services.Logger/obj/Debug/net7.0/CampusHub.Services.Logger.AssemblyInfoInputs.cache
+/Users/ibrohim/Desktop/CampusHub/Services/CampusHub.Services.Logger/obj/Debug/net7.0/CampusHub.Services.Logger.AssemblyInfo.cs
+/Users/ibrohim/Desktop/CampusHub/Services/CampusHub.Services.Logger/obj/Debug/net7.0/CampusHub.Services.Logger.csproj.CoreCompileInputs.cache
+/Users/ibrohim/Desktop/CampusHub/Services/CampusHub.Services.Logger/obj/Debug/net7.0/CampusHub.Services.Logger.dll
+/Users/ibrohim/Desktop/CampusHub/Services/CampusHub.Services.Logger/obj/Debug/net7.0/refint/CampusHub.Services.Logger.dll
+/Users/ibrohim/Desktop/CampusHub/Services/CampusHub.Services.Logger/obj/Debug/net7.0/CampusHub.Services.Logger.pdb
+/Users/ibrohim/Desktop/CampusHub/Services/CampusHub.Services.Logger/obj/Debug/net7.0/ref/CampusHub.Services.Logger.dll

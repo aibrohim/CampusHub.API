@@ -1,0 +1,15 @@
+/Users/ibrohim/Desktop/CampusHub/Services/CampusHub.Services.Settings/bin/Debug/net7.0/CampusHub.Services.Settings.deps.json
+/Users/ibrohim/Desktop/CampusHub/Services/CampusHub.Services.Settings/bin/Debug/net7.0/CampusHub.Services.Settings.dll
+/Users/ibrohim/Desktop/CampusHub/Services/CampusHub.Services.Settings/bin/Debug/net7.0/CampusHub.Services.Settings.pdb
+/Users/ibrohim/Desktop/CampusHub/Services/CampusHub.Services.Settings/bin/Debug/net7.0/CampusHub.Common.dll
+/Users/ibrohim/Desktop/CampusHub/Services/CampusHub.Services.Settings/bin/Debug/net7.0/CampusHub.Common.pdb
+/Users/ibrohim/Desktop/CampusHub/Services/CampusHub.Services.Settings/obj/Debug/net7.0/CampusHub.Services.Settings.csproj.AssemblyReference.cache
+/Users/ibrohim/Desktop/CampusHub/Services/CampusHub.Services.Settings/obj/Debug/net7.0/CampusHub.Services.Settings.GeneratedMSBuildEditorConfig.editorconfig
+/Users/ibrohim/Desktop/CampusHub/Services/CampusHub.Services.Settings/obj/Debug/net7.0/CampusHub.Services.Settings.AssemblyInfoInputs.cache
+/Users/ibrohim/Desktop/CampusHub/Services/CampusHub.Services.Settings/obj/Debug/net7.0/CampusHub.Services.Settings.AssemblyInfo.cs
+/Users/ibrohim/Desktop/CampusHub/Services/CampusHub.Services.Settings/obj/Debug/net7.0/CampusHub.Services.Settings.csproj.CoreCompileInputs.cache
+/Users/ibrohim/Desktop/CampusHub/Services/CampusHub.Services.Settings/obj/Debug/net7.0/CampusHub.Services.Settings.csproj.CopyComplete
+/Users/ibrohim/Desktop/CampusHub/Services/CampusHub.Services.Settings/obj/Debug/net7.0/CampusHub.Services.Settings.dll
+/Users/ibrohim/Desktop/CampusHub/Services/CampusHub.Services.Settings/obj/Debug/net7.0/refint/CampusHub.Services.Settings.dll
+/Users/ibrohim/Desktop/CampusHub/Services/CampusHub.Services.Settings/obj/Debug/net7.0/CampusHub.Services.Settings.pdb
+/Users/ibrohim/Desktop/CampusHub/Services/CampusHub.Services.Settings/obj/Debug/net7.0/ref/CampusHub.Services.Settings.dll
