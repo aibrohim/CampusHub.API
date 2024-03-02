@@ -2254,6 +2254,23 @@
           "bin/placeholder/CampusHub.Context.Seeder.dll": {}
         }
       },
+      "CampusHub.Services.Assessments/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v7.0",
+        "dependencies": {
+          "AutoMapper": "13.0.1",
+          "CampusHub.Common": "1.0.0",
+          "CampusHub.Context": "1.0.0",
+          "Microsoft.EntityFrameworkCore": "7.0.15",
+          "Microsoft.Extensions.DependencyInjection.Abstractions": "7.0.0"
+        },
+        "compile": {
+          "bin/placeholder/CampusHub.Services.Assessments.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/CampusHub.Services.Assessments.dll": {}
+        }
+      },
       "CampusHub.Services.Buildings/1.0.0": {
         "type": "project",
         "framework": ".NETCoreApp,Version=v7.0",
@@ -5746,6 +5763,11 @@
       "path": "../../../Data/CampusHub.Context.Seeder/CampusHub.Context.Seeder.csproj",
       "msbuildProject": "../../../Data/CampusHub.Context.Seeder/CampusHub.Context.Seeder.csproj"
     },
+    "CampusHub.Services.Assessments/1.0.0": {
+      "type": "project",
+      "path": "../../../Services/CampusHub.Services.Assessments/CampusHub.Services.Assessments.csproj",
+      "msbuildProject": "../../../Services/CampusHub.Services.Assessments/CampusHub.Services.Assessments.csproj"
+    },
     "CampusHub.Services.Buildings/1.0.0": {
       "type": "project",
       "path": "../../../Services/CampusHub.Services.Buildings/CampusHub.Services.Buildings.csproj",
@@ -5785,6 +5807,7 @@
       "CampusHub.Context >= 1.0.0",
       "CampusHub.Context.Migrations.PgSql >= 1.0.0",
       "CampusHub.Context.Seeder >= 1.0.0",
+      "CampusHub.Services.Assessments >= 1.0.0",
       "CampusHub.Services.Buildings >= 1.0.0",
       "CampusHub.Services.Courses >= 1.0.0",
       "CampusHub.Services.Logger >= 1.0.0",
@@ -5834,6 +5857,9 @@
             },
             "/Users/ibrohim/Desktop/CampusHub/Data/CampusHub.Context/CampusHub.Context.csproj": {
               "projectPath": "/Users/ibrohim/Desktop/CampusHub/Data/CampusHub.Context/CampusHub.Context.csproj"
+            },
+            "/Users/ibrohim/Desktop/CampusHub/Services/CampusHub.Services.Assessments/CampusHub.Services.Assessments.csproj": {
+              "projectPath": "/Users/ibrohim/Desktop/CampusHub/Services/CampusHub.Services.Assessments/CampusHub.Services.Assessments.csproj"
             },
             "/Users/ibrohim/Desktop/CampusHub/Services/CampusHub.Services.Buildings/CampusHub.Services.Buildings.csproj": {
               "projectPath": "/Users/ibrohim/Desktop/CampusHub/Services/CampusHub.Services.Buildings/CampusHub.Services.Buildings.csproj"

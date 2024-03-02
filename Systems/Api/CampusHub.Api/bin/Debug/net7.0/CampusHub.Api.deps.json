@@ -14,6 +14,7 @@
           "CampusHub.Context": "1.0.0",
           "CampusHub.Context.Migrations.PgSql": "1.0.0",
           "CampusHub.Context.Seeder": "1.0.0",
+          "CampusHub.Services.Assessments": "1.0.0",
           "CampusHub.Services.Buildings": "1.0.0",
           "CampusHub.Services.Courses": "1.0.0",
           "CampusHub.Services.Logger": "1.0.0",
@@ -1274,6 +1275,18 @@
           "CampusHub.Context.Seeder.dll": {}
         }
       },
+      "CampusHub.Services.Assessments/1.0.0": {
+        "dependencies": {
+          "AutoMapper": "13.0.1",
+          "CampusHub.Common": "1.0.0",
+          "CampusHub.Context": "1.0.0",
+          "Microsoft.EntityFrameworkCore": "7.0.15",
+          "Microsoft.Extensions.DependencyInjection.Abstractions": "7.0.0"
+        },
+        "runtime": {
+          "CampusHub.Services.Assessments.dll": {}
+        }
+      },
       "CampusHub.Services.Buildings/1.0.0": {
         "dependencies": {
           "AutoMapper": "13.0.1",
@@ -2246,6 +2259,11 @@
       "sha512": ""
     },
     "CampusHub.Context.Seeder/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "CampusHub.Services.Assessments/1.0.0": {
       "type": "project",
       "serviceable": false,
       "sha512": ""

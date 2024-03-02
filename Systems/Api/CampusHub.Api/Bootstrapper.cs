@@ -5,6 +5,7 @@ using CampusHub.Services.Buildings;
 using CampusHub.Services.Rooms;
 using CampusHub.Services.Courses;
 using CampusHub.Services.Modules;
+using CampusHub.Services.Assessments;
 
 namespace CampusHub.Api;
 
@@ -24,7 +25,8 @@ public static class Bootstrapper
 			.AddBuildingsService()
 			.AddRoomsService()
 			.AddCoursesService()
-			.AddModulesService();
+			.AddModulesService()
+			.AddAssessmentsService();
 
 		return service;
 	}

@@ -48,6 +48,9 @@
     <ProjectReference Include="..\..\..\Services\CampusHub.Services.Modules\CampusHub.Services.Modules.csproj">
       <GlobalPropertiesToRemove></GlobalPropertiesToRemove>
     </ProjectReference>
+    <ProjectReference Include="..\..\..\Services\CampusHub.Services.Assessments\CampusHub.Services.Assessments.csproj">
+      <GlobalPropertiesToRemove></GlobalPropertiesToRemove>
+    </ProjectReference>
   </ItemGroup>
   <ItemGroup>
     <None Remove="Configuration\" />

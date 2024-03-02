@@ -41,6 +41,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CampusHub.Services.Courses"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CampusHub.Services.Modules", "Services\CampusHub.Services.Modules\CampusHub.Services.Modules.csproj", "{21DD324B-B978-433A-946E-3459632934BC}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CampusHub.Services.Assessments", "Services\CampusHub.Services.Assessments\CampusHub.Services.Assessments.csproj", "{32340FE6-4DC4-413E-B1B7-4A8011CABE66}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -99,6 +101,10 @@ Global
 		{21DD324B-B978-433A-946E-3459632934BC}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{21DD324B-B978-433A-946E-3459632934BC}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{21DD324B-B978-433A-946E-3459632934BC}.Release|Any CPU.Build.0 = Release|Any CPU
+		{32340FE6-4DC4-413E-B1B7-4A8011CABE66}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{32340FE6-4DC4-413E-B1B7-4A8011CABE66}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{32340FE6-4DC4-413E-B1B7-4A8011CABE66}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{32340FE6-4DC4-413E-B1B7-4A8011CABE66}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -121,5 +127,6 @@ Global
 		{9314B6AB-E6F2-4B04-9528-B7A3E3E5DD84} = {13ACEDF8-0863-4D3D-9F95-4BCA13788D4A}
 		{18C588F7-E58A-4CD0-ADB9-E1523E667B31} = {13ACEDF8-0863-4D3D-9F95-4BCA13788D4A}
 		{21DD324B-B978-433A-946E-3459632934BC} = {13ACEDF8-0863-4D3D-9F95-4BCA13788D4A}
+		{32340FE6-4DC4-413E-B1B7-4A8011CABE66} = {13ACEDF8-0863-4D3D-9F95-4BCA13788D4A}
 	EndGlobalSection
 EndGlobal

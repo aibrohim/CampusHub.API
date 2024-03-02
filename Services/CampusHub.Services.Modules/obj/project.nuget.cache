@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "QeLllvNEkFFRl+8PZOmbAutZQXTLzz1UIDR0BMnNYyVnDYnP7ERqNT3yyKADh/D2w1lJamOW9+cCZfnmhrmH4Q==",
+  "dgSpecHash": "SjSKxTv96dq/+Ptnmsv2JeMrHI7YQ2ENSj+3jmeZtgCvF9zPCkUjOcn3iQ3n1z/2rwcSlt95AJEvIJOrOSSwOw==",
   "success": true,
-  "projectFilePath": "/Users/ibrohim/Desktop/CampusHub/Services/CampusHub.Services.Rooms/CampusHub.Services.Rooms.csproj",
+  "projectFilePath": "/Users/ibrohim/Desktop/CampusHub/Services/CampusHub.Services.Modules/CampusHub.Services.Modules.csproj",
   "expectedPackageFiles": [
     "/Users/ibrohim/.nuget/packages/automapper/12.0.1/automapper.12.0.1.nupkg.sha512",
     "/Users/ibrohim/.nuget/packages/automapper.extensions.microsoft.dependencyinjection/12.0.1/automapper.extensions.microsoft.dependencyinjection.12.0.1.nupkg.sha512",

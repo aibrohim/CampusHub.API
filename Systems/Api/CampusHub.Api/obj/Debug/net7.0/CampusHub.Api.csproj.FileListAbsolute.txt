@@ -147,3 +147,5 @@
 /Users/ibrohim/Desktop/CampusHub/Systems/Api/CampusHub.Api/bin/Debug/net7.0/CampusHub.Services.Courses.pdb
 /Users/ibrohim/Desktop/CampusHub/Systems/Api/CampusHub.Api/bin/Debug/net7.0/CampusHub.Services.Modules.dll
 /Users/ibrohim/Desktop/CampusHub/Systems/Api/CampusHub.Api/bin/Debug/net7.0/CampusHub.Services.Modules.pdb
+/Users/ibrohim/Desktop/CampusHub/Systems/Api/CampusHub.Api/bin/Debug/net7.0/CampusHub.Services.Assessments.dll
+/Users/ibrohim/Desktop/CampusHub/Systems/Api/CampusHub.Api/bin/Debug/net7.0/CampusHub.Services.Assessments.pdb

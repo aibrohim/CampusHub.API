@@ -4312,11 +4312,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "/Users/ibrohim/Desktop/CampusHub/Services/CampusHub.Services.Rooms/CampusHub.Services.Rooms.csproj",
-      "projectName": "CampusHub.Services.Rooms",
-      "projectPath": "/Users/ibrohim/Desktop/CampusHub/Services/CampusHub.Services.Rooms/CampusHub.Services.Rooms.csproj",
+      "projectUniqueName": "/Users/ibrohim/Desktop/CampusHub/Services/CampusHub.Services.Modules/CampusHub.Services.Modules.csproj",
+      "projectName": "CampusHub.Services.Modules",
+      "projectPath": "/Users/ibrohim/Desktop/CampusHub/Services/CampusHub.Services.Modules/CampusHub.Services.Modules.csproj",
       "packagesPath": "/Users/ibrohim/.nuget/packages/",
-      "outputPath": "/Users/ibrohim/Desktop/CampusHub/Services/CampusHub.Services.Rooms/obj/",
+      "outputPath": "/Users/ibrohim/Desktop/CampusHub/Services/CampusHub.Services.Modules/obj/",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "/Users/ibrohim/.nuget/NuGet/NuGet.Config"
@@ -4376,7 +4376,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/7.0.312/RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/8.0.101/RuntimeIdentifierGraph.json"
       }
     }
   }
