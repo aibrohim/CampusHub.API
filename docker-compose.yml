@@ -1,0 +1,46 @@
+version: '3.4'
+
+services:
+    campushub_postgresql:
+        image: postgres:14.1
+    
+  # campushub_rabbitmq:
+  #   image: rabbitmq:management
+            
+    campushub_api:
+        image: ${DOCKER_REGISTRY-}campushubapi
+        build:
+            context: .
+            dockerfile: Systems/Api/CampusHub.Api/Dockerfile
+        depends_on:
+            - campushub_postgresql
+    #  - campushub_rabbitmq
+ 
+  # dsrcampushub_identity:
+  #   image: ${DOCKER_REGISTRY-}campushubidentity
+  #   build:
+  #     context: .
+  #     dockerfile: Systems/Identity/NetSchool.Identity/Dockerfile
+  #   depends_on:
+  #     - campushub_postgresql
+  #     - campushub_api
+
+  # campushub_worker_1:
+  #   image: ${DOCKER_REGISTRY-}campushubworker
+  #   build:
+  #     context: .
+  #     dockerfile: Systems/Worker/NetSchool.Worker/Dockerfile
+  #   depends_on:
+  #     - campushub_postgresql
+  #     - campushub_rabbitmq
+  #     - campushub_api
+
+  # campushub_worker_2:
+  #   image: ${DOCKER_REGISTRY-}campushubworker
+  #   build:
+  #     context: .
+  #     dockerfile: Systems/Worker/NetSchool.Worker/Dockerfile
+  #   depends_on:
+  #     - campushub_postgresql
+  #     - campushub_rabbitmq
+  #     - campushub_api 

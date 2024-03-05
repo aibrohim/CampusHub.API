@@ -9,7 +9,7 @@ public static class GuestLecturesContextConfiguration
     {
         modelBuilder.Entity<GuestLecture>().ToTable("guest_lecture");
         modelBuilder.Entity<GuestLecture>().Property(x => x.Title).IsRequired();
-        modelBuilder.Entity<GuestLecture>().Property(x => x.Title).HasMaxLength(50);
+        modelBuilder.Entity<GuestLecture>().Property(x => x.Title).HasMaxLength(255);
         modelBuilder.Entity<GuestLecture>().HasIndex(x => x.Title).IsUnique();
 
         modelBuilder.Entity<GuestLecture>().HasOne(gl => gl.Guest).WithMany(g => g.GuestLectures).HasForeignKey(gl => gl.GuestId).OnDelete(DeleteBehavior.Restrict);

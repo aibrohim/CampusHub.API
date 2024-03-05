@@ -16,7 +16,12 @@
           "CampusHub.Context.Seeder": "1.0.0",
           "CampusHub.Services.Assessments": "1.0.0",
           "CampusHub.Services.Buildings": "1.0.0",
+          "CampusHub.Services.ClubMeetings": "1.0.0",
+          "CampusHub.Services.Clubs": "1.0.0",
           "CampusHub.Services.Courses": "1.0.0",
+          "CampusHub.Services.Groups": "1.0.0",
+          "CampusHub.Services.GuestLectures": "1.0.0",
+          "CampusHub.Services.Guests": "1.0.0",
           "CampusHub.Services.Logger": "1.0.0",
           "CampusHub.Services.Modules": "1.0.0",
           "CampusHub.Services.Rooms": "1.0.0",
@@ -1298,6 +1303,28 @@
           "CampusHub.Services.Buildings.dll": {}
         }
       },
+      "CampusHub.Services.ClubMeetings/1.0.0": {
+        "dependencies": {
+          "AutoMapper": "13.0.1",
+          "CampusHub.Context": "1.0.0",
+          "Microsoft.EntityFrameworkCore": "7.0.15",
+          "Microsoft.Extensions.DependencyInjection.Abstractions": "7.0.0"
+        },
+        "runtime": {
+          "CampusHub.Services.ClubMeetings.dll": {}
+        }
+      },
+      "CampusHub.Services.Clubs/1.0.0": {
+        "dependencies": {
+          "AutoMapper": "13.0.1",
+          "CampusHub.Context": "1.0.0",
+          "Microsoft.EntityFrameworkCore": "7.0.15",
+          "Microsoft.Extensions.DependencyInjection.Abstractions": "7.0.0"
+        },
+        "runtime": {
+          "CampusHub.Services.Clubs.dll": {}
+        }
+      },
       "CampusHub.Services.Courses/1.0.0": {
         "dependencies": {
           "AutoMapper": "13.0.1",
@@ -1307,6 +1334,39 @@
         },
         "runtime": {
           "CampusHub.Services.Courses.dll": {}
+        }
+      },
+      "CampusHub.Services.Groups/1.0.0": {
+        "dependencies": {
+          "AutoMapper": "13.0.1",
+          "CampusHub.Context": "1.0.0",
+          "Microsoft.EntityFrameworkCore": "7.0.15",
+          "Microsoft.Extensions.DependencyInjection.Abstractions": "7.0.0"
+        },
+        "runtime": {
+          "CampusHub.Services.Groups.dll": {}
+        }
+      },
+      "CampusHub.Services.GuestLectures/1.0.0": {
+        "dependencies": {
+          "AutoMapper": "13.0.1",
+          "CampusHub.Context": "1.0.0",
+          "Microsoft.EntityFrameworkCore": "7.0.15",
+          "Microsoft.Extensions.DependencyInjection.Abstractions": "7.0.0"
+        },
+        "runtime": {
+          "CampusHub.Services.GuestLectures.dll": {}
+        }
+      },
+      "CampusHub.Services.Guests/1.0.0": {
+        "dependencies": {
+          "AutoMapper": "13.0.1",
+          "CampusHub.Context": "1.0.0",
+          "Microsoft.EntityFrameworkCore": "7.0.15",
+          "Microsoft.Extensions.DependencyInjection.Abstractions": "7.0.0"
+        },
+        "runtime": {
+          "CampusHub.Services.Guests.dll": {}
         }
       },
       "CampusHub.Services.Logger/1.0.0": {
@@ -2273,7 +2333,32 @@
       "serviceable": false,
       "sha512": ""
     },
+    "CampusHub.Services.ClubMeetings/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "CampusHub.Services.Clubs/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
     "CampusHub.Services.Courses/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "CampusHub.Services.Groups/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "CampusHub.Services.GuestLectures/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "CampusHub.Services.Guests/1.0.0": {
       "type": "project",
       "serviceable": false,
       "sha512": ""

@@ -1,4 +1,4 @@
-﻿<Properties StartupConfiguration="{A946231A-BE1C-4C84-B098-7E8541E894A0}|http">
+﻿<Properties StartupConfiguration="{A946231A-BE1C-4C84-B098-7E8541E894A0}|Default">
   <MonoDevelop.Ide.Workbench ActiveDocument="Services/CampusHub.Services.Modules/Bootstrapper.cs">
     <Files>
       <File FileName="Services/CampusHub.Services.Modules/Bootstrapper.cs" Line="6" Column="2" />

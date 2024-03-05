@@ -21,7 +21,31 @@ public class UpdateModelProfile : Profile
 {
     public UpdateModelProfile()
     {
-        CreateMap<UpdateModel, Assessment>();
+        CreateMap<UpdateModel, Assessment>()
+            .ForMember(dest => dest.RoomId, opt => opt.Ignore())
+            .ForMember(dest => dest.ModuleId, opt => opt.Ignore())
+            .AfterMap<UpdateModelActions>();
+    }
+
+    public class UpdateModelActions : IMappingAction<UpdateModel, Assessment>
+    {
+        private readonly IDbContextFactory<MainDbContext> contextFactory;
+
+        public UpdateModelActions(IDbContextFactory<MainDbContext> contextFactory)
+        {
+            this.contextFactory = contextFactory;
+        }
+
+        public void Process(UpdateModel source, Assessment destination, ResolutionContext context)
+        {
+            using var db = contextFactory.CreateDbContext();
+
+            var module = db.Modules.FirstOrDefault(x => x.Uid == source.ModuleId);
+            var room = db.Rooms.FirstOrDefault(x => x.Uid == source.RoomId);
+
+            destination.ModuleId = module.Id;
+            destination.RoomId = room.Id;
+        }
     }
 }
 

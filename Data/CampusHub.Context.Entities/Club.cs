@@ -9,5 +9,5 @@ public class Club : BaseEntity
     public virtual User Organizer { get; set; }
 
     public virtual ICollection<ClubMeeting> ClubMeetings { get; set; }
-    public virtual ICollection<User> Participants { get; set; }
+    public virtual ICollection<User> Subscribers { get; set; }
 }

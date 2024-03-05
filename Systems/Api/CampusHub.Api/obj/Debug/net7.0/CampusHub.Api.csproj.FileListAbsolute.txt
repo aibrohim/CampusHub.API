@@ -149,3 +149,13 @@
 /Users/ibrohim/Desktop/CampusHub/Systems/Api/CampusHub.Api/bin/Debug/net7.0/CampusHub.Services.Modules.pdb
 /Users/ibrohim/Desktop/CampusHub/Systems/Api/CampusHub.Api/bin/Debug/net7.0/CampusHub.Services.Assessments.dll
 /Users/ibrohim/Desktop/CampusHub/Systems/Api/CampusHub.Api/bin/Debug/net7.0/CampusHub.Services.Assessments.pdb
+/Users/ibrohim/Desktop/CampusHub/Systems/Api/CampusHub.Api/bin/Debug/net7.0/CampusHub.Services.Groups.dll
+/Users/ibrohim/Desktop/CampusHub/Systems/Api/CampusHub.Api/bin/Debug/net7.0/CampusHub.Services.Groups.pdb
+/Users/ibrohim/Desktop/CampusHub/Systems/Api/CampusHub.Api/bin/Debug/net7.0/CampusHub.Services.Guests.dll
+/Users/ibrohim/Desktop/CampusHub/Systems/Api/CampusHub.Api/bin/Debug/net7.0/CampusHub.Services.Guests.pdb
+/Users/ibrohim/Desktop/CampusHub/Systems/Api/CampusHub.Api/bin/Debug/net7.0/CampusHub.Services.GuestLectures.dll
+/Users/ibrohim/Desktop/CampusHub/Systems/Api/CampusHub.Api/bin/Debug/net7.0/CampusHub.Services.GuestLectures.pdb
+/Users/ibrohim/Desktop/CampusHub/Systems/Api/CampusHub.Api/bin/Debug/net7.0/CampusHub.Services.Clubs.dll
+/Users/ibrohim/Desktop/CampusHub/Systems/Api/CampusHub.Api/bin/Debug/net7.0/CampusHub.Services.Clubs.pdb
+/Users/ibrohim/Desktop/CampusHub/Systems/Api/CampusHub.Api/bin/Debug/net7.0/CampusHub.Services.ClubMeetings.dll
+/Users/ibrohim/Desktop/CampusHub/Systems/Api/CampusHub.Api/bin/Debug/net7.0/CampusHub.Services.ClubMeetings.pdb

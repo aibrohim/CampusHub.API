@@ -461,6 +461,148 @@
         }
       }
     },
+    "/Users/ibrohim/Desktop/CampusHub/Services/CampusHub.Services.ClubMeetings/CampusHub.Services.ClubMeetings.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/Users/ibrohim/Desktop/CampusHub/Services/CampusHub.Services.ClubMeetings/CampusHub.Services.ClubMeetings.csproj",
+        "projectName": "CampusHub.Services.ClubMeetings",
+        "projectPath": "/Users/ibrohim/Desktop/CampusHub/Services/CampusHub.Services.ClubMeetings/CampusHub.Services.ClubMeetings.csproj",
+        "packagesPath": "/Users/ibrohim/.nuget/packages/",
+        "outputPath": "/Users/ibrohim/Desktop/CampusHub/Services/CampusHub.Services.ClubMeetings/obj/",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "/Users/ibrohim/.nuget/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "net7.0"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net7.0": {
+            "targetAlias": "net7.0",
+            "projectReferences": {
+              "/Users/ibrohim/Desktop/CampusHub/Data/CampusHub.Context/CampusHub.Context.csproj": {
+                "projectPath": "/Users/ibrohim/Desktop/CampusHub/Data/CampusHub.Context/CampusHub.Context.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net7.0": {
+          "targetAlias": "net7.0",
+          "dependencies": {
+            "AutoMapper": {
+              "target": "Package",
+              "version": "[13.0.1, )"
+            },
+            "Microsoft.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[7.0.15, )"
+            },
+            "Microsoft.Extensions.DependencyInjection.Abstractions": {
+              "target": "Package",
+              "version": "[7.0.0, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/7.0.312/RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "/Users/ibrohim/Desktop/CampusHub/Services/CampusHub.Services.Clubs/CampusHub.Services.Clubs.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/Users/ibrohim/Desktop/CampusHub/Services/CampusHub.Services.Clubs/CampusHub.Services.Clubs.csproj",
+        "projectName": "CampusHub.Services.Clubs",
+        "projectPath": "/Users/ibrohim/Desktop/CampusHub/Services/CampusHub.Services.Clubs/CampusHub.Services.Clubs.csproj",
+        "packagesPath": "/Users/ibrohim/.nuget/packages/",
+        "outputPath": "/Users/ibrohim/Desktop/CampusHub/Services/CampusHub.Services.Clubs/obj/",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "/Users/ibrohim/.nuget/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "net7.0"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net7.0": {
+            "targetAlias": "net7.0",
+            "projectReferences": {
+              "/Users/ibrohim/Desktop/CampusHub/Data/CampusHub.Context/CampusHub.Context.csproj": {
+                "projectPath": "/Users/ibrohim/Desktop/CampusHub/Data/CampusHub.Context/CampusHub.Context.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net7.0": {
+          "targetAlias": "net7.0",
+          "dependencies": {
+            "AutoMapper": {
+              "target": "Package",
+              "version": "[13.0.1, )"
+            },
+            "Microsoft.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[7.0.15, )"
+            },
+            "Microsoft.Extensions.DependencyInjection.Abstractions": {
+              "target": "Package",
+              "version": "[7.0.0, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/7.0.312/RuntimeIdentifierGraph.json"
+        }
+      }
+    },
     "/Users/ibrohim/Desktop/CampusHub/Services/CampusHub.Services.Courses/CampusHub.Services.Courses.csproj": {
       "version": "1.0.0",
       "restore": {
@@ -469,6 +611,219 @@
         "projectPath": "/Users/ibrohim/Desktop/CampusHub/Services/CampusHub.Services.Courses/CampusHub.Services.Courses.csproj",
         "packagesPath": "/Users/ibrohim/.nuget/packages/",
         "outputPath": "/Users/ibrohim/Desktop/CampusHub/Services/CampusHub.Services.Courses/obj/",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "/Users/ibrohim/.nuget/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "net7.0"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net7.0": {
+            "targetAlias": "net7.0",
+            "projectReferences": {
+              "/Users/ibrohim/Desktop/CampusHub/Data/CampusHub.Context/CampusHub.Context.csproj": {
+                "projectPath": "/Users/ibrohim/Desktop/CampusHub/Data/CampusHub.Context/CampusHub.Context.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net7.0": {
+          "targetAlias": "net7.0",
+          "dependencies": {
+            "AutoMapper": {
+              "target": "Package",
+              "version": "[13.0.1, )"
+            },
+            "Microsoft.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[7.0.15, )"
+            },
+            "Microsoft.Extensions.DependencyInjection.Abstractions": {
+              "target": "Package",
+              "version": "[7.0.0, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/7.0.312/RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "/Users/ibrohim/Desktop/CampusHub/Services/CampusHub.Services.Groups/CampusHub.Services.Groups.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/Users/ibrohim/Desktop/CampusHub/Services/CampusHub.Services.Groups/CampusHub.Services.Groups.csproj",
+        "projectName": "CampusHub.Services.Groups",
+        "projectPath": "/Users/ibrohim/Desktop/CampusHub/Services/CampusHub.Services.Groups/CampusHub.Services.Groups.csproj",
+        "packagesPath": "/Users/ibrohim/.nuget/packages/",
+        "outputPath": "/Users/ibrohim/Desktop/CampusHub/Services/CampusHub.Services.Groups/obj/",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "/Users/ibrohim/.nuget/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "net7.0"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net7.0": {
+            "targetAlias": "net7.0",
+            "projectReferences": {
+              "/Users/ibrohim/Desktop/CampusHub/Data/CampusHub.Context/CampusHub.Context.csproj": {
+                "projectPath": "/Users/ibrohim/Desktop/CampusHub/Data/CampusHub.Context/CampusHub.Context.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net7.0": {
+          "targetAlias": "net7.0",
+          "dependencies": {
+            "AutoMapper": {
+              "target": "Package",
+              "version": "[13.0.1, )"
+            },
+            "Microsoft.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[7.0.15, )"
+            },
+            "Microsoft.Extensions.DependencyInjection.Abstractions": {
+              "target": "Package",
+              "version": "[7.0.0, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/7.0.312/RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "/Users/ibrohim/Desktop/CampusHub/Services/CampusHub.Services.GuestLectures/CampusHub.Services.GuestLectures.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/Users/ibrohim/Desktop/CampusHub/Services/CampusHub.Services.GuestLectures/CampusHub.Services.GuestLectures.csproj",
+        "projectName": "CampusHub.Services.GuestLectures",
+        "projectPath": "/Users/ibrohim/Desktop/CampusHub/Services/CampusHub.Services.GuestLectures/CampusHub.Services.GuestLectures.csproj",
+        "packagesPath": "/Users/ibrohim/.nuget/packages/",
+        "outputPath": "/Users/ibrohim/Desktop/CampusHub/Services/CampusHub.Services.GuestLectures/obj/",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "/Users/ibrohim/.nuget/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "net7.0"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net7.0": {
+            "targetAlias": "net7.0",
+            "projectReferences": {
+              "/Users/ibrohim/Desktop/CampusHub/Data/CampusHub.Context/CampusHub.Context.csproj": {
+                "projectPath": "/Users/ibrohim/Desktop/CampusHub/Data/CampusHub.Context/CampusHub.Context.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net7.0": {
+          "targetAlias": "net7.0",
+          "dependencies": {
+            "AutoMapper": {
+              "target": "Package",
+              "version": "[13.0.1, )"
+            },
+            "Microsoft.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[7.0.15, )"
+            },
+            "Microsoft.Extensions.DependencyInjection.Abstractions": {
+              "target": "Package",
+              "version": "[7.0.0, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/7.0.312/RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "/Users/ibrohim/Desktop/CampusHub/Services/CampusHub.Services.Guests/CampusHub.Services.Guests.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/Users/ibrohim/Desktop/CampusHub/Services/CampusHub.Services.Guests/CampusHub.Services.Guests.csproj",
+        "projectName": "CampusHub.Services.Guests",
+        "projectPath": "/Users/ibrohim/Desktop/CampusHub/Services/CampusHub.Services.Guests/CampusHub.Services.Guests.csproj",
+        "packagesPath": "/Users/ibrohim/.nuget/packages/",
+        "outputPath": "/Users/ibrohim/Desktop/CampusHub/Services/CampusHub.Services.Guests/obj/",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "/Users/ibrohim/.nuget/NuGet/NuGet.Config"
@@ -1024,8 +1379,23 @@
               "/Users/ibrohim/Desktop/CampusHub/Services/CampusHub.Services.Buildings/CampusHub.Services.Buildings.csproj": {
                 "projectPath": "/Users/ibrohim/Desktop/CampusHub/Services/CampusHub.Services.Buildings/CampusHub.Services.Buildings.csproj"
               },
+              "/Users/ibrohim/Desktop/CampusHub/Services/CampusHub.Services.ClubMeetings/CampusHub.Services.ClubMeetings.csproj": {
+                "projectPath": "/Users/ibrohim/Desktop/CampusHub/Services/CampusHub.Services.ClubMeetings/CampusHub.Services.ClubMeetings.csproj"
+              },
+              "/Users/ibrohim/Desktop/CampusHub/Services/CampusHub.Services.Clubs/CampusHub.Services.Clubs.csproj": {
+                "projectPath": "/Users/ibrohim/Desktop/CampusHub/Services/CampusHub.Services.Clubs/CampusHub.Services.Clubs.csproj"
+              },
               "/Users/ibrohim/Desktop/CampusHub/Services/CampusHub.Services.Courses/CampusHub.Services.Courses.csproj": {
                 "projectPath": "/Users/ibrohim/Desktop/CampusHub/Services/CampusHub.Services.Courses/CampusHub.Services.Courses.csproj"
+              },
+              "/Users/ibrohim/Desktop/CampusHub/Services/CampusHub.Services.Groups/CampusHub.Services.Groups.csproj": {
+                "projectPath": "/Users/ibrohim/Desktop/CampusHub/Services/CampusHub.Services.Groups/CampusHub.Services.Groups.csproj"
+              },
+              "/Users/ibrohim/Desktop/CampusHub/Services/CampusHub.Services.GuestLectures/CampusHub.Services.GuestLectures.csproj": {
+                "projectPath": "/Users/ibrohim/Desktop/CampusHub/Services/CampusHub.Services.GuestLectures/CampusHub.Services.GuestLectures.csproj"
+              },
+              "/Users/ibrohim/Desktop/CampusHub/Services/CampusHub.Services.Guests/CampusHub.Services.Guests.csproj": {
+                "projectPath": "/Users/ibrohim/Desktop/CampusHub/Services/CampusHub.Services.Guests/CampusHub.Services.Guests.csproj"
               },
               "/Users/ibrohim/Desktop/CampusHub/Services/CampusHub.Services.Logger/CampusHub.Services.Logger.csproj": {
                 "projectPath": "/Users/ibrohim/Desktop/CampusHub/Services/CampusHub.Services.Logger/CampusHub.Services.Logger.csproj"

@@ -3,5 +3,7 @@
 public class Course : BaseEntity
 {
     public string Name { get; set; }
+
+    public virtual ICollection<Group> Groups { get; set; }
     public virtual ICollection<Module> Modules { get; set; }
 }

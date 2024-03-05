@@ -59,9 +59,6 @@ namespace CampusHub.Context.Migrations.PgSql.Migrations
 
                     b.HasIndex("RoomId");
 
-                    b.HasIndex("Title")
-                        .IsUnique();
-
                     b.HasIndex("Uid")
                         .IsUnique();
 
@@ -208,6 +205,9 @@ namespace CampusHub.Context.Migrations.PgSql.Migrations
 
                     NpgsqlPropertyBuilderExtensions.UseIdentityByDefaultColumn(b.Property<int>("Id"));
 
+                    b.Property<int?>("CourseId")
+                        .HasColumnType("integer");
+
                     b.Property<string>("Name")
                         .IsRequired()
                         .HasMaxLength(50)
@@ -217,6 +217,8 @@ namespace CampusHub.Context.Migrations.PgSql.Migrations
                         .HasColumnType("uuid");
 
                     b.HasKey("Id");
+
+                    b.HasIndex("CourseId");
 
                     b.HasIndex("Name")
                         .IsUnique();
@@ -281,8 +283,8 @@ namespace CampusHub.Context.Migrations.PgSql.Migrations
 
                     b.Property<string>("Title")
                         .IsRequired()
-                        .HasMaxLength(50)
-                        .HasColumnType("character varying(50)");
+                        .HasMaxLength(255)
+                        .HasColumnType("character varying(255)");
 
                     b.Property<Guid>("Uid")
                         .HasColumnType("uuid");
@@ -474,7 +476,7 @@ namespace CampusHub.Context.Migrations.PgSql.Migrations
                     b.ToTable("users", (string)null);
                 });
 
-            modelBuilder.Entity("ClubUser", b =>
+            modelBuilder.Entity("ClubMeetingUser", b =>
                 {
                     b.Property<Guid>("ParticipantsId")
                         .HasColumnType("uuid");
@@ -487,6 +489,21 @@ namespace CampusHub.Context.Migrations.PgSql.Migrations
                     b.HasIndex("ParticipatingClubsId");
 
                     b.ToTable("clubs_participants", (string)null);
+                });
+
+            modelBuilder.Entity("ClubUser", b =>
+                {
+                    b.Property<int>("SubscribedClubsId")
+                        .HasColumnType("integer");
+
+                    b.Property<Guid>("SubscribersId")
+                        .HasColumnType("uuid");
+
+                    b.HasKey("SubscribedClubsId", "SubscribersId");
+
+                    b.HasIndex("SubscribersId");
+
+                    b.ToTable("clubs_subscribers", (string)null);
                 });
 
             modelBuilder.Entity("GroupUser", b =>
@@ -708,6 +725,15 @@ namespace CampusHub.Context.Migrations.PgSql.Migrations
                     b.Navigation("Room");
                 });
 
+            modelBuilder.Entity("CampusHub.Context.Entities.Group", b =>
+                {
+                    b.HasOne("CampusHub.Context.Entities.Course", "Course")
+                        .WithMany("Groups")
+                        .HasForeignKey("CourseId");
+
+                    b.Navigation("Course");
+                });
+
             modelBuilder.Entity("CampusHub.Context.Entities.GuestLecture", b =>
                 {
                     b.HasOne("CampusHub.Context.Entities.Guest", "Guest")
@@ -754,7 +780,7 @@ namespace CampusHub.Context.Migrations.PgSql.Migrations
                     b.Navigation("StudentNotificationSettings");
                 });
 
-            modelBuilder.Entity("ClubUser", b =>
+            modelBuilder.Entity("ClubMeetingUser", b =>
                 {
                     b.HasOne("CampusHub.Context.Entities.User", null)
                         .WithMany()
@@ -762,9 +788,24 @@ namespace CampusHub.Context.Migrations.PgSql.Migrations
                         .OnDelete(DeleteBehavior.Cascade)
                         .IsRequired();
 
-                    b.HasOne("CampusHub.Context.Entities.Club", null)
+                    b.HasOne("CampusHub.Context.Entities.ClubMeeting", null)
                         .WithMany()
                         .HasForeignKey("ParticipatingClubsId")
+                        .OnDelete(DeleteBehavior.Cascade)
+                        .IsRequired();
+                });
+
+            modelBuilder.Entity("ClubUser", b =>
+                {
+                    b.HasOne("CampusHub.Context.Entities.Club", null)
+                        .WithMany()
+                        .HasForeignKey("SubscribedClubsId")
+                        .OnDelete(DeleteBehavior.Cascade)
+                        .IsRequired();
+
+                    b.HasOne("CampusHub.Context.Entities.User", null)
+                        .WithMany()
+                        .HasForeignKey("SubscribersId")
                         .OnDelete(DeleteBehavior.Cascade)
                         .IsRequired();
                 });
@@ -877,6 +918,8 @@ namespace CampusHub.Context.Migrations.PgSql.Migrations
 
             modelBuilder.Entity("CampusHub.Context.Entities.Course", b =>
                 {
+                    b.Navigation("Groups");
+
                     b.Navigation("Modules");
                 });
 

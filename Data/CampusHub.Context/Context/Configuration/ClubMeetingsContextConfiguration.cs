@@ -14,5 +14,8 @@ public static class ClubMeetingsContextConfiguration
 
         modelBuilder.Entity<ClubMeeting>().HasOne(gl => gl.Club).WithMany(g => g.ClubMeetings).HasForeignKey(gl => gl.ClubId).OnDelete(DeleteBehavior.Restrict);
         modelBuilder.Entity<ClubMeeting>().HasOne(gl => gl.Room).WithMany(r => r.ClubMeetings).HasForeignKey(gl => gl.RoomId).OnDelete(DeleteBehavior.Restrict);
+
+        modelBuilder.Entity<ClubMeeting>().HasMany(c => c.Participants).WithMany(p => p.ParticipatingClubs).UsingEntity(t => t.ToTable("clubs_participants"));
+
     }
 }

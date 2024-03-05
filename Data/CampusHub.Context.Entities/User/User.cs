@@ -18,7 +18,9 @@ public class User : IdentityUser<Guid>
 
     public virtual ICollection<Club> OrganizingClubs { get; set; }
 
-    public virtual ICollection<Club> ParticipatingClubs { get; set; }
+    public virtual ICollection<Club> SubscribedClubs { get; set; }
+
+    public virtual ICollection<ClubMeeting> ParticipatingClubs { get; set; }
 
     public virtual ICollection<GuestLecture> ParticipatingGuestLectures { get; set; }
 }

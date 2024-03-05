@@ -11,4 +11,6 @@ public class ClubMeeting : BaseEntity
 
     public int? RoomId { get; set; }
     public virtual Room Room { get; set; }
+
+    public virtual ICollection<User> Participants { get; set; }
 }

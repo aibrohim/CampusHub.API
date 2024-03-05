@@ -12,7 +12,7 @@ public static class ClubsContextConfiguration
         modelBuilder.Entity<Club>().Property(x => x.Name).HasMaxLength(50);
         modelBuilder.Entity<Club>().HasIndex(x => x.Name).IsUnique();
 
-        modelBuilder.Entity<Club>().HasMany(c => c.Participants).WithMany(p => p.ParticipatingClubs).UsingEntity(t => t.ToTable("clubs_participants"));
+        modelBuilder.Entity<Club>().HasMany(c => c.Subscribers).WithMany(p => p.SubscribedClubs).UsingEntity(t => t.ToTable("clubs_subscribers"));
         modelBuilder.Entity<Club>().HasOne(c => c.Organizer).WithMany(o => o.OrganizingClubs).HasForeignKey(gl => gl.OrganizerId).OnDelete(DeleteBehavior.Restrict);
     }
 }

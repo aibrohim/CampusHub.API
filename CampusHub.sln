@@ -43,6 +43,25 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CampusHub.Services.Modules"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CampusHub.Services.Assessments", "Services\CampusHub.Services.Assessments\CampusHub.Services.Assessments.csproj", "{32340FE6-4DC4-413E-B1B7-4A8011CABE66}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CampusHub.Services.Groups", "Services\CampusHub.Services.Groups\CampusHub.Services.Groups.csproj", "{E0226FB2-057C-4644-9B47-92313D940CDD}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CampusHub.Services.Guests", "Services\CampusHub.Services.Guests\CampusHub.Services.Guests.csproj", "{291A8626-DE2A-4C37-8148-AE5D97EF34FD}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CampusHub.Services.GuestLectures", "Services\CampusHub.Services.GuestLectures\CampusHub.Services.GuestLectures.csproj", "{A5874A85-CE56-4951-B9C0-A343D14C0191}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CampusHub.Services.Clubs", "Services\CampusHub.Services.Clubs\CampusHub.Services.Clubs.csproj", "{3E01D114-9A9D-4BCB-B383-F30D08F8A2E4}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CampusHub.Services.ClubMeetings", "Services\CampusHub.Services.ClubMeetings\CampusHub.Services.ClubMeetings.csproj", "{655AB6DE-5ECB-4A23-B3FE-4E1B170356C0}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "_docker", "_docker", "{94A9382F-E4C0-47AF-BC0F-E462CB007D83}"
+	ProjectSection(SolutionItems) = preProject
+		.dockerignore = .dockerignore
+		docker-compose.yml = docker-compose.yml
+		docker-compose.override.yml = docker-compose.override.yml
+		env.api = env.api
+		env.worker = env.worker
+	EndProjectSection
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -105,6 +124,26 @@ Global
 		{32340FE6-4DC4-413E-B1B7-4A8011CABE66}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{32340FE6-4DC4-413E-B1B7-4A8011CABE66}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{32340FE6-4DC4-413E-B1B7-4A8011CABE66}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E0226FB2-057C-4644-9B47-92313D940CDD}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E0226FB2-057C-4644-9B47-92313D940CDD}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E0226FB2-057C-4644-9B47-92313D940CDD}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E0226FB2-057C-4644-9B47-92313D940CDD}.Release|Any CPU.Build.0 = Release|Any CPU
+		{291A8626-DE2A-4C37-8148-AE5D97EF34FD}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{291A8626-DE2A-4C37-8148-AE5D97EF34FD}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{291A8626-DE2A-4C37-8148-AE5D97EF34FD}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{291A8626-DE2A-4C37-8148-AE5D97EF34FD}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A5874A85-CE56-4951-B9C0-A343D14C0191}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A5874A85-CE56-4951-B9C0-A343D14C0191}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A5874A85-CE56-4951-B9C0-A343D14C0191}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A5874A85-CE56-4951-B9C0-A343D14C0191}.Release|Any CPU.Build.0 = Release|Any CPU
+		{3E01D114-9A9D-4BCB-B383-F30D08F8A2E4}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3E01D114-9A9D-4BCB-B383-F30D08F8A2E4}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3E01D114-9A9D-4BCB-B383-F30D08F8A2E4}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3E01D114-9A9D-4BCB-B383-F30D08F8A2E4}.Release|Any CPU.Build.0 = Release|Any CPU
+		{655AB6DE-5ECB-4A23-B3FE-4E1B170356C0}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{655AB6DE-5ECB-4A23-B3FE-4E1B170356C0}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{655AB6DE-5ECB-4A23-B3FE-4E1B170356C0}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{655AB6DE-5ECB-4A23-B3FE-4E1B170356C0}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -128,5 +167,10 @@ Global
 		{18C588F7-E58A-4CD0-ADB9-E1523E667B31} = {13ACEDF8-0863-4D3D-9F95-4BCA13788D4A}
 		{21DD324B-B978-433A-946E-3459632934BC} = {13ACEDF8-0863-4D3D-9F95-4BCA13788D4A}
 		{32340FE6-4DC4-413E-B1B7-4A8011CABE66} = {13ACEDF8-0863-4D3D-9F95-4BCA13788D4A}
+		{E0226FB2-057C-4644-9B47-92313D940CDD} = {13ACEDF8-0863-4D3D-9F95-4BCA13788D4A}
+		{291A8626-DE2A-4C37-8148-AE5D97EF34FD} = {13ACEDF8-0863-4D3D-9F95-4BCA13788D4A}
+		{A5874A85-CE56-4951-B9C0-A343D14C0191} = {13ACEDF8-0863-4D3D-9F95-4BCA13788D4A}
+		{3E01D114-9A9D-4BCB-B383-F30D08F8A2E4} = {13ACEDF8-0863-4D3D-9F95-4BCA13788D4A}
+		{655AB6DE-5ECB-4A23-B3FE-4E1B170356C0} = {13ACEDF8-0863-4D3D-9F95-4BCA13788D4A}
 	EndGlobalSection
 EndGlobal
