@@ -1,0 +1,12 @@
+/Users/ibrohim/Desktop/CampusHub/Services/CampusHub.Services.Auth/bin/Debug/net7.0/CampusHub.Services.Auth.deps.json
+/Users/ibrohim/Desktop/CampusHub/Services/CampusHub.Services.Auth/bin/Debug/net7.0/CampusHub.Services.Auth.dll
+/Users/ibrohim/Desktop/CampusHub/Services/CampusHub.Services.Auth/bin/Debug/net7.0/CampusHub.Services.Auth.pdb
+/Users/ibrohim/Desktop/CampusHub/Services/CampusHub.Services.Auth/obj/Debug/net7.0/CampusHub.Services.Auth.csproj.AssemblyReference.cache
+/Users/ibrohim/Desktop/CampusHub/Services/CampusHub.Services.Auth/obj/Debug/net7.0/CampusHub.Services.Auth.GeneratedMSBuildEditorConfig.editorconfig
+/Users/ibrohim/Desktop/CampusHub/Services/CampusHub.Services.Auth/obj/Debug/net7.0/CampusHub.Services.Auth.AssemblyInfoInputs.cache
+/Users/ibrohim/Desktop/CampusHub/Services/CampusHub.Services.Auth/obj/Debug/net7.0/CampusHub.Services.Auth.AssemblyInfo.cs
+/Users/ibrohim/Desktop/CampusHub/Services/CampusHub.Services.Auth/obj/Debug/net7.0/CampusHub.Services.Auth.csproj.CoreCompileInputs.cache
+/Users/ibrohim/Desktop/CampusHub/Services/CampusHub.Services.Auth/obj/Debug/net7.0/CampusHub.Services.Auth.dll
+/Users/ibrohim/Desktop/CampusHub/Services/CampusHub.Services.Auth/obj/Debug/net7.0/refint/CampusHub.Services.Auth.dll
+/Users/ibrohim/Desktop/CampusHub/Services/CampusHub.Services.Auth/obj/Debug/net7.0/CampusHub.Services.Auth.pdb
+/Users/ibrohim/Desktop/CampusHub/Services/CampusHub.Services.Auth/obj/Debug/net7.0/ref/CampusHub.Services.Auth.dll

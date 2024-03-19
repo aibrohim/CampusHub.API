@@ -11,6 +11,7 @@ using CampusHub.Services.Guests;
 using CampusHub.Services.GuestLectures;
 using CampusHub.Services.Clubs;
 using CampusHub.Services.ClubMeetings;
+using CampusHub.Services.Identity;
 
 namespace CampusHub.Api;
 
@@ -27,6 +28,7 @@ public static class Bootstrapper
 			.AddLogSettings()
 			.AddAppLogger()
 			.AddApiSpecialSettings(configuration)
+			.AddAppAuthentication()
 			.AddBuildingsService()
 			.AddRoomsService()
 			.AddCoursesService()

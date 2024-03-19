@@ -59,53 +59,38 @@ public static class SwaggerConfiguration
             if (File.Exists(xmlPath))
                 options.IncludeXmlComments(xmlPath);
 
-            options.AddSecurityDefinition("oauth2", new OpenApiSecurityScheme
+					options.AddSecurityDefinition(
+					"Bearer",
+					new OpenApiSecurityScheme()
+					{
+						Name = "Authorization",
+						Type = SecuritySchemeType.ApiKey,
+						Scheme = "Bearer",
+						BearerFormat = "JWT",
+						In = ParameterLocation.Header,
+						Description =
+							"JWT Authorization header using the Bearer scheme. \r\n\r\n Enter 'Bearer' [space] and then your token in the text input below.\r\n\r\nExample: \"Bearer 1safsfsdfdfd\"",
+					}
+				);
+
+          options.AddSecurityRequirement(
+            new OpenApiSecurityRequirement
             {
-                Name = "Bearer",
-                Type = SecuritySchemeType.OAuth2,
-                Scheme = "oauth2",
-                BearerFormat = "JWT",
-                In = ParameterLocation.Header,
-                Flows = new OpenApiOAuthFlows
+              {
+                new OpenApiSecurityScheme
                 {
-                    ClientCredentials = new OpenApiOAuthFlow
-                    {
-                        TokenUrl = new Uri($"{identitySettings.Url}/connect/token"),
-                        Scopes = new Dictionary<string, string>
-                        {
-                            { AppScopes.BooksRead, "Read" },
-                            { AppScopes.BooksWrite, "Write" }
-                        }
-                    },
+                  Reference = new OpenApiReference
+                  {
+                    Type = ReferenceType.SecurityScheme,
+                    Id = "Bearer"
+                  }
+                },
+                Array.Empty<string>()
+              }
+            }
+          );
 
-                    Password = new OpenApiOAuthFlow
-                    {
-                        TokenUrl = new Uri($"{identitySettings.Url}/connect/token"),
-                        Scopes = new Dictionary<string, string>
-                        {
-                            { AppScopes.BooksRead, "Read" },
-                            { AppScopes.BooksWrite, "Write" }
-                        }
-                    }
-                }
-            });
-
-            options.AddSecurityRequirement(new OpenApiSecurityRequirement
-            {
-                {
-                    new OpenApiSecurityScheme
-                    {
-                        Reference = new OpenApiReference
-                        {
-                            Type = ReferenceType.SecurityScheme,
-                            Id = "oauth2"
-                        }
-                    },
-                    new List<string>()
-                }
-            });
-
-            options.UseOneOfForPolymorphism();
+					options.UseOneOfForPolymorphism();
             options.EnableAnnotations(true, true);
 
             options.UseAllOfForInheritance();

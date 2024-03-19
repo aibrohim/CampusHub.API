@@ -29,7 +29,7 @@
     "CampusHub.Api": {
       "commandName": "Project",
       "launchBrowser": true,
-      "applicationUrl": "http://localhost:3336",
+      "applicationUrl": "http://localhost:5114",
       "environmentVariables": {
         "ASPNETCORE_ENVIRONMENT": "Development"
       }

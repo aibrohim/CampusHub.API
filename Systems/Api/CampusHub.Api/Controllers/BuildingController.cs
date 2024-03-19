@@ -6,9 +6,12 @@ using AutoMapper;
 using CampusHub.Services.Logger;
 using CampusHub.Services.Buildings;
 using CampusHub.Api.Controllers.Models;
+using Microsoft.AspNetCore.Authorization;
+using System.Data;
 
 [ApiController]
 [ApiVersion("1.0")]
+[Authorize(Roles = "Student")]
 [ApiExplorerSettings(GroupName = "Product")]
 [Route("v{version:apiVersion}/[controller]")]
 public class BuildingController : ControllerBase

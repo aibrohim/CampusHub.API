@@ -67,6 +67,12 @@
     <ProjectReference Include="..\..\..\Services\CampusHub.Services.ClubMeetings\CampusHub.Services.ClubMeetings.csproj">
       <GlobalPropertiesToRemove></GlobalPropertiesToRemove>
     </ProjectReference>
+    <ProjectReference Include="..\..\..\Services\CampusHub.Services.Identity\CampusHub.Services.Identity.csproj">
+      <GlobalPropertiesToRemove></GlobalPropertiesToRemove>
+    </ProjectReference>
+    <ProjectReference Include="..\..\..\Services\CampusHub.Services.Auth\CampusHub.Services.Auth.csproj">
+      <GlobalPropertiesToRemove></GlobalPropertiesToRemove>
+    </ProjectReference>
   </ItemGroup>
   <ItemGroup>
     <None Remove="Configuration\" />
