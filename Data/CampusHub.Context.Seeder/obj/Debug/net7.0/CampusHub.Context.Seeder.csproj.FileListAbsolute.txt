@@ -19,3 +19,4 @@
 /Users/ibrohim/Desktop/CampusHub/Data/CampusHub.Context.Seeder/obj/Debug/net7.0/ref/CampusHub.Context.Seeder.dll
 /Users/ibrohim/Desktop/CampusHub/Data/CampusHub.Context.Seeder/bin/Debug/net7.0/CampusHub.Services.Settings.dll
 /Users/ibrohim/Desktop/CampusHub/Data/CampusHub.Context.Seeder/bin/Debug/net7.0/CampusHub.Services.Settings.pdb
+/Users/ibrohim/Desktop/CampusHub/Data/CampusHub.Context.Seeder/obj/Debug/net7.0/CampusHub.Context.Seeder.sourcelink.json

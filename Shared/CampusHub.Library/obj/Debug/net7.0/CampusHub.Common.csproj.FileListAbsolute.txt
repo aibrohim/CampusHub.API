@@ -10,3 +10,4 @@
 /Users/ibrohim/Desktop/CampusHub/Shared/CampusHub.Library/obj/Debug/net7.0/refint/CampusHub.Common.dll
 /Users/ibrohim/Desktop/CampusHub/Shared/CampusHub.Library/obj/Debug/net7.0/CampusHub.Common.pdb
 /Users/ibrohim/Desktop/CampusHub/Shared/CampusHub.Library/obj/Debug/net7.0/ref/CampusHub.Common.dll
+/Users/ibrohim/Desktop/CampusHub/Shared/CampusHub.Library/obj/Debug/net7.0/CampusHub.Common.sourcelink.json

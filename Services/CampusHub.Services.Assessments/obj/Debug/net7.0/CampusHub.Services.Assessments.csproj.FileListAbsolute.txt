@@ -19,3 +19,4 @@
 /Users/ibrohim/Desktop/CampusHub/Services/CampusHub.Services.Assessments/obj/Debug/net7.0/refint/CampusHub.Services.Assessments.dll
 /Users/ibrohim/Desktop/CampusHub/Services/CampusHub.Services.Assessments/obj/Debug/net7.0/CampusHub.Services.Assessments.pdb
 /Users/ibrohim/Desktop/CampusHub/Services/CampusHub.Services.Assessments/obj/Debug/net7.0/ref/CampusHub.Services.Assessments.dll
+/Users/ibrohim/Desktop/CampusHub/Services/CampusHub.Services.Assessments/obj/Debug/net7.0/CampusHub.Services.Assessments.sourcelink.json

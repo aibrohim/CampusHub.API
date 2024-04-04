@@ -1,0 +1,16 @@
+/Users/ibrohim/Desktop/CampusHub/Services/CampusHub.Services.Email/bin/Debug/net7.0/CampusHub.Services.Email.deps.json
+/Users/ibrohim/Desktop/CampusHub/Services/CampusHub.Services.Email/bin/Debug/net7.0/CampusHub.Services.Email.dll
+/Users/ibrohim/Desktop/CampusHub/Services/CampusHub.Services.Email/bin/Debug/net7.0/CampusHub.Services.Email.pdb
+/Users/ibrohim/Desktop/CampusHub/Services/CampusHub.Services.Email/bin/Debug/net7.0/CampusHub.Common.dll
+/Users/ibrohim/Desktop/CampusHub/Services/CampusHub.Services.Email/bin/Debug/net7.0/CampusHub.Common.pdb
+/Users/ibrohim/Desktop/CampusHub/Services/CampusHub.Services.Email/obj/Debug/net7.0/CampusHub.Services.Email.csproj.AssemblyReference.cache
+/Users/ibrohim/Desktop/CampusHub/Services/CampusHub.Services.Email/obj/Debug/net7.0/CampusHub.Services.Email.GeneratedMSBuildEditorConfig.editorconfig
+/Users/ibrohim/Desktop/CampusHub/Services/CampusHub.Services.Email/obj/Debug/net7.0/CampusHub.Services.Email.AssemblyInfoInputs.cache
+/Users/ibrohim/Desktop/CampusHub/Services/CampusHub.Services.Email/obj/Debug/net7.0/CampusHub.Services.Email.AssemblyInfo.cs
+/Users/ibrohim/Desktop/CampusHub/Services/CampusHub.Services.Email/obj/Debug/net7.0/CampusHub.Services.Email.csproj.CoreCompileInputs.cache
+/Users/ibrohim/Desktop/CampusHub/Services/CampusHub.Services.Email/obj/Debug/net7.0/CampusHub.Services.Email.sourcelink.json
+/Users/ibrohim/Desktop/CampusHub/Services/CampusHub.Services.Email/obj/Debug/net7.0/CampusHub.Services.Email.csproj.CopyComplete
+/Users/ibrohim/Desktop/CampusHub/Services/CampusHub.Services.Email/obj/Debug/net7.0/CampusHub.Services.Email.dll
+/Users/ibrohim/Desktop/CampusHub/Services/CampusHub.Services.Email/obj/Debug/net7.0/refint/CampusHub.Services.Email.dll
+/Users/ibrohim/Desktop/CampusHub/Services/CampusHub.Services.Email/obj/Debug/net7.0/CampusHub.Services.Email.pdb
+/Users/ibrohim/Desktop/CampusHub/Services/CampusHub.Services.Email/obj/Debug/net7.0/ref/CampusHub.Services.Email.dll

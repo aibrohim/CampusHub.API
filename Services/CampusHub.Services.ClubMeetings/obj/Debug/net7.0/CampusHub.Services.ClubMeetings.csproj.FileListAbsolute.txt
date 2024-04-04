@@ -19,3 +19,4 @@
 /Users/ibrohim/Desktop/CampusHub/Services/CampusHub.Services.ClubMeetings/obj/Debug/net7.0/refint/CampusHub.Services.ClubMeetings.dll
 /Users/ibrohim/Desktop/CampusHub/Services/CampusHub.Services.ClubMeetings/obj/Debug/net7.0/CampusHub.Services.ClubMeetings.pdb
 /Users/ibrohim/Desktop/CampusHub/Services/CampusHub.Services.ClubMeetings/obj/Debug/net7.0/ref/CampusHub.Services.ClubMeetings.dll
+/Users/ibrohim/Desktop/CampusHub/Services/CampusHub.Services.ClubMeetings/obj/Debug/net7.0/CampusHub.Services.ClubMeetings.sourcelink.json

@@ -19,3 +19,4 @@
 /Users/ibrohim/Desktop/CampusHub/Services/CampusHub.Services.Guests/obj/Debug/net7.0/refint/CampusHub.Services.Guests.dll
 /Users/ibrohim/Desktop/CampusHub/Services/CampusHub.Services.Guests/obj/Debug/net7.0/CampusHub.Services.Guests.pdb
 /Users/ibrohim/Desktop/CampusHub/Services/CampusHub.Services.Guests/obj/Debug/net7.0/ref/CampusHub.Services.Guests.dll
+/Users/ibrohim/Desktop/CampusHub/Services/CampusHub.Services.Guests/obj/Debug/net7.0/CampusHub.Services.Guests.sourcelink.json

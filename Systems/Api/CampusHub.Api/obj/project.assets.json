@@ -2428,6 +2428,21 @@
           "bin/placeholder/CampusHub.Services.Courses.dll": {}
         }
       },
+      "CampusHub.Services.Email/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v7.0",
+        "dependencies": {
+          "CampusHub.Common": "1.0.0",
+          "Microsoft.Extensions.Configuration.Json": "7.0.0",
+          "Microsoft.Extensions.DependencyInjection.Abstractions": "7.0.0"
+        },
+        "compile": {
+          "bin/placeholder/CampusHub.Services.Email.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/CampusHub.Services.Email.dll": {}
+        }
+      },
       "CampusHub.Services.Groups/1.0.0": {
         "type": "project",
         "framework": ".NETCoreApp,Version=v7.0",
@@ -2483,6 +2498,7 @@
           "CampusHub.Common": "1.0.0",
           "CampusHub.Context": "1.0.0",
           "CampusHub.Context.Entities": "1.0.0",
+          "CampusHub.Services.Email": "1.0.0",
           "Microsoft.AspNetCore.Authentication.JwtBearer": "7.0.17",
           "Microsoft.AspNetCore.Identity.EntityFrameworkCore": "7.0.17",
           "Microsoft.Extensions.Configuration.Json": "7.0.0",
@@ -6105,6 +6121,11 @@
       "path": "../../../Services/CampusHub.Services.Courses/CampusHub.Services.Courses.csproj",
       "msbuildProject": "../../../Services/CampusHub.Services.Courses/CampusHub.Services.Courses.csproj"
     },
+    "CampusHub.Services.Email/1.0.0": {
+      "type": "project",
+      "path": "../../../Services/CampusHub.Services.Email/CampusHub.Services.Email.csproj",
+      "msbuildProject": "../../../Services/CampusHub.Services.Email/CampusHub.Services.Email.csproj"
+    },
     "CampusHub.Services.Groups/1.0.0": {
       "type": "project",
       "path": "../../../Services/CampusHub.Services.Groups/CampusHub.Services.Groups.csproj",
@@ -6160,6 +6181,7 @@
       "CampusHub.Services.ClubMeetings >= 1.0.0",
       "CampusHub.Services.Clubs >= 1.0.0",
       "CampusHub.Services.Courses >= 1.0.0",
+      "CampusHub.Services.Email >= 1.0.0",
       "CampusHub.Services.Groups >= 1.0.0",
       "CampusHub.Services.GuestLectures >= 1.0.0",
       "CampusHub.Services.Guests >= 1.0.0",
@@ -6196,7 +6218,6 @@
         "net7.0"
       ],
       "sources": {
-        "/usr/local/share/dotnet/sdk/7.0.312/Sdks/Microsoft.NET.Sdk.Web/library-packs": {},
         "https://api.nuget.org/v3/index.json": {}
       },
       "frameworks": {
@@ -6229,6 +6250,9 @@
             },
             "/Users/ibrohim/Desktop/CampusHub/Services/CampusHub.Services.Courses/CampusHub.Services.Courses.csproj": {
               "projectPath": "/Users/ibrohim/Desktop/CampusHub/Services/CampusHub.Services.Courses/CampusHub.Services.Courses.csproj"
+            },
+            "/Users/ibrohim/Desktop/CampusHub/Services/CampusHub.Services.Email/CampusHub.Services.Email.csproj": {
+              "projectPath": "/Users/ibrohim/Desktop/CampusHub/Services/CampusHub.Services.Email/CampusHub.Services.Email.csproj"
             },
             "/Users/ibrohim/Desktop/CampusHub/Services/CampusHub.Services.Groups/CampusHub.Services.Groups.csproj": {
               "projectPath": "/Users/ibrohim/Desktop/CampusHub/Services/CampusHub.Services.Groups/CampusHub.Services.Groups.csproj"
@@ -6327,7 +6351,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/7.0.312/RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/8.0.101/RuntimeIdentifierGraph.json"
       }
     }
   },

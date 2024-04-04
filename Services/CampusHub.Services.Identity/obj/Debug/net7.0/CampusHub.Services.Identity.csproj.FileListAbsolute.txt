@@ -19,3 +19,6 @@
 /Users/ibrohim/Desktop/CampusHub/Services/CampusHub.Services.Identity/obj/Debug/net7.0/refint/CampusHub.Services.Identity.dll
 /Users/ibrohim/Desktop/CampusHub/Services/CampusHub.Services.Identity/obj/Debug/net7.0/CampusHub.Services.Identity.pdb
 /Users/ibrohim/Desktop/CampusHub/Services/CampusHub.Services.Identity/obj/Debug/net7.0/ref/CampusHub.Services.Identity.dll
+/Users/ibrohim/Desktop/CampusHub/Services/CampusHub.Services.Identity/obj/Debug/net7.0/CampusHub.Services.Identity.sourcelink.json
+/Users/ibrohim/Desktop/CampusHub/Services/CampusHub.Services.Identity/bin/Debug/net7.0/CampusHub.Services.Email.dll
+/Users/ibrohim/Desktop/CampusHub/Services/CampusHub.Services.Identity/bin/Debug/net7.0/CampusHub.Services.Email.pdb

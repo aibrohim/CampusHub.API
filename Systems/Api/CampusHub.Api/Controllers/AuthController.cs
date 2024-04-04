@@ -24,8 +24,20 @@ public class AuthController : ControllerBase
 	}
 
 	[HttpPost("login")]
-	public async Task<LoginResModel> Create(LoginModel request)
+	public async Task<LoginResModel> Login(LoginModel request)
 	{
 		return await authService.Login(request);
+	}
+	
+	[HttpPost("forgot-password")]
+	public async Task<string> ForgotPassword(ForgotPasswordModel request)
+	{
+		return await authService.ForgotPassword(request);
+	}
+	
+	[HttpPost("recover-password")]
+	public async Task RecoverPassword(RecoverPasswordModel request)
+	{
+		await authService.RecoverPassword(request);
 	}
 }

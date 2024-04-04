@@ -1784,6 +1784,21 @@
           "bin/placeholder/CampusHub.Context.Entities.dll": {}
         }
       },
+      "CampusHub.Services.Email/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v7.0",
+        "dependencies": {
+          "CampusHub.Common": "1.0.0",
+          "Microsoft.Extensions.Configuration.Json": "7.0.0",
+          "Microsoft.Extensions.DependencyInjection.Abstractions": "7.0.0"
+        },
+        "compile": {
+          "bin/placeholder/CampusHub.Services.Email.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/CampusHub.Services.Email.dll": {}
+        }
+      },
       "CampusHub.Services.Settings/1.0.0": {
         "type": "project",
         "framework": ".NETCoreApp,Version=v7.0",
@@ -4494,6 +4509,11 @@
       "path": "../../Data/CampusHub.Context.Entities/CampusHub.Context.Entities.csproj",
       "msbuildProject": "../../Data/CampusHub.Context.Entities/CampusHub.Context.Entities.csproj"
     },
+    "CampusHub.Services.Email/1.0.0": {
+      "type": "project",
+      "path": "../CampusHub.Services.Email/CampusHub.Services.Email.csproj",
+      "msbuildProject": "../CampusHub.Services.Email/CampusHub.Services.Email.csproj"
+    },
     "CampusHub.Services.Settings/1.0.0": {
       "type": "project",
       "path": "../CampusHub.Services.Settings/CampusHub.Services.Settings.csproj",
@@ -4505,6 +4525,7 @@
       "CampusHub.Common >= 1.0.0",
       "CampusHub.Context >= 1.0.0",
       "CampusHub.Context.Entities >= 1.0.0",
+      "CampusHub.Services.Email >= 1.0.0",
       "Microsoft.AspNetCore.Authentication.JwtBearer >= 7.0.17",
       "Microsoft.AspNetCore.Identity.EntityFrameworkCore >= 7.0.17",
       "Microsoft.Extensions.Configuration.Json >= 7.0.0",
@@ -4542,6 +4563,9 @@
             },
             "/Users/ibrohim/Desktop/CampusHub/Data/CampusHub.Context/CampusHub.Context.csproj": {
               "projectPath": "/Users/ibrohim/Desktop/CampusHub/Data/CampusHub.Context/CampusHub.Context.csproj"
+            },
+            "/Users/ibrohim/Desktop/CampusHub/Services/CampusHub.Services.Email/CampusHub.Services.Email.csproj": {
+              "projectPath": "/Users/ibrohim/Desktop/CampusHub/Services/CampusHub.Services.Email/CampusHub.Services.Email.csproj"
             },
             "/Users/ibrohim/Desktop/CampusHub/Shared/CampusHub.Library/CampusHub.Common.csproj": {
               "projectPath": "/Users/ibrohim/Desktop/CampusHub/Shared/CampusHub.Library/CampusHub.Common.csproj"
@@ -4596,7 +4620,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/7.0.312/RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/8.0.101/RuntimeIdentifierGraph.json"
       }
     }
   }

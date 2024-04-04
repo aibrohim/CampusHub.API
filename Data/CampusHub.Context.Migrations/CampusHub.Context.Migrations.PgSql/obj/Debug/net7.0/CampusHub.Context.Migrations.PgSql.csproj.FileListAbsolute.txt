@@ -21,3 +21,4 @@
 /Users/ibrohim/Desktop/CampusHub/Data/CampusHub.Context.Migrations/CampusHub.Context.Migrations.PgSql/obj/Debug/net7.0/CampusHub.Context.Migrations.PgSql.csproj.CopyComplete
 /Users/ibrohim/Desktop/CampusHub/Data/CampusHub.Context.Migrations/CampusHub.Context.Migrations.PgSql/bin/Debug/net7.0/CampusHub.Services.Settings.dll
 /Users/ibrohim/Desktop/CampusHub/Data/CampusHub.Context.Migrations/CampusHub.Context.Migrations.PgSql/bin/Debug/net7.0/CampusHub.Services.Settings.pdb
+/Users/ibrohim/Desktop/CampusHub/Data/CampusHub.Context.Migrations/CampusHub.Context.Migrations.PgSql/obj/Debug/net7.0/CampusHub.Context.Migrations.PgSql.sourcelink.json

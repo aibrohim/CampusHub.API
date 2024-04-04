@@ -19,3 +19,4 @@
 /Users/ibrohim/Desktop/CampusHub/Services/CampusHub.Services.Courses/obj/Debug/net7.0/refint/CampusHub.Services.Courses.dll
 /Users/ibrohim/Desktop/CampusHub/Services/CampusHub.Services.Courses/obj/Debug/net7.0/CampusHub.Services.Courses.pdb
 /Users/ibrohim/Desktop/CampusHub/Services/CampusHub.Services.Courses/obj/Debug/net7.0/ref/CampusHub.Services.Courses.dll
+/Users/ibrohim/Desktop/CampusHub/Services/CampusHub.Services.Courses/obj/Debug/net7.0/CampusHub.Services.Courses.sourcelink.json

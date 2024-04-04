@@ -28,3 +28,4 @@
 /Users/ibrohim/Desktop/CampusHub/Systems/Api/CampusHub.Api.Settings/obj/Debug/net7.0/refint/CampusHub.Api.Settings.dll
 /Users/ibrohim/Desktop/CampusHub/Systems/Api/CampusHub.Api.Settings/obj/Debug/net7.0/CampusHub.Api.Settings.pdb
 /Users/ibrohim/Desktop/CampusHub/Systems/Api/CampusHub.Api.Settings/obj/Debug/net7.0/ref/CampusHub.Api.Settings.dll
+/Users/ibrohim/Desktop/CampusHub/Systems/Api/CampusHub.Api.Settings/obj/Debug/net7.0/CampusHub.Api.Settings.sourcelink.json

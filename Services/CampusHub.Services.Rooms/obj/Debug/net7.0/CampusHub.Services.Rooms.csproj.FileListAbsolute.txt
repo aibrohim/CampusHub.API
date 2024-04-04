@@ -19,3 +19,4 @@
 /Users/ibrohim/Desktop/CampusHub/Services/CampusHub.Services.Rooms/obj/Debug/net7.0/refint/CampusHub.Services.Rooms.dll
 /Users/ibrohim/Desktop/CampusHub/Services/CampusHub.Services.Rooms/obj/Debug/net7.0/CampusHub.Services.Rooms.pdb
 /Users/ibrohim/Desktop/CampusHub/Services/CampusHub.Services.Rooms/obj/Debug/net7.0/ref/CampusHub.Services.Rooms.dll
+/Users/ibrohim/Desktop/CampusHub/Services/CampusHub.Services.Rooms/obj/Debug/net7.0/CampusHub.Services.Rooms.sourcelink.json

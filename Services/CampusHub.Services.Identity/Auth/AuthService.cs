@@ -1,39 +1,44 @@
-﻿namespace CampusHub.Services.Identity;
+﻿using CampusHub.Services.Email;
+
+namespace CampusHub.Services.Identity;
 
 using System;
 using Microsoft.AspNetCore.Identity;
 using Microsoft.EntityFrameworkCore;
-
-using CampusHub.Common.Validator;
-using CampusHub.Context;
-using CampusHub.Context.Entities;
-using CampusHub.Common.Exceptions;
 using AutoMapper;
 using FluentValidation;
 using FluentValidation.Results;
 
+using Common.Validator;
+using Context;
+using Context.Entities;
+using Common.Exceptions;
+
 public class AuthService: IAuthService
 {
 	private readonly IModelValidator<LoginModel> _loginModelValidator;
-	private readonly IDbContextFactory<MainDbContext> _dbContextFactory;
+	private readonly IModelValidator<ForgotPasswordModel> _forgotPasswordModelValidator;
 	private readonly UserManager<User> _userManager;
 	private readonly SignInManager<User> _signInManager;
+	private readonly IEmailService _emailService;
 	private readonly IMapper _mapper;
 	private readonly AuthSettings _authSettings;
 
 	public AuthService(
 		IModelValidator<LoginModel> loginModelValidator,
-		IDbContextFactory<MainDbContext> dbContextFactory,
+		IModelValidator<ForgotPasswordModel> forgotPasswordModelValidator,
 		UserManager<User> userManager,
 		SignInManager<User> signInManager,
+		IEmailService emailService,
 		IMapper mapper,
 		AuthSettings authSettings
 	)
 	{
 		_loginModelValidator = loginModelValidator;
-		_dbContextFactory = dbContextFactory;
+		_forgotPasswordModelValidator = forgotPasswordModelValidator;
 		_userManager = userManager;
 		_signInManager = signInManager;
+		_emailService = emailService;
 		_mapper = mapper;
 		_authSettings = authSettings;
 	}
@@ -71,6 +76,39 @@ public class AuthService: IAuthService
 			accessToken = token.AccessToken,
 			data = _mapper.Map<UserLoginResModel>(user)
 		};
+	}
+
+	public async Task<string> ForgotPassword(ForgotPasswordModel forgotPasswordModel)
+	{
+		await _forgotPasswordModelValidator.CheckAsync(forgotPasswordModel);
+		
+		var user = await _userManager.Users.FirstOrDefaultAsync(u => u.Email == forgotPasswordModel.Email);
+
+		if (user == null)
+			throw new ProcessException($"{forgotPasswordModel.Email} not found!");
+
+		string recoverPasswordToken = await _userManager.GeneratePasswordResetTokenAsync(user);
+		
+		_emailService.SendEmail(
+			forgotPasswordModel.Email, 
+			"Recovery Password", 
+			$"Your token is: {recoverPasswordToken}"
+			);
+
+		return recoverPasswordToken;
+	}
+
+	public async Task RecoverPassword(RecoverPasswordModel recoverPasswordModel)
+	{
+		var user = await _userManager.Users.FirstOrDefaultAsync(u => u.Email == recoverPasswordModel.Email);
+		
+		if (user == null)
+			throw new ProcessException($"{recoverPasswordModel.Email} not found!");
+
+		await _userManager.ResetPasswordAsync(
+			user, 
+			recoverPasswordModel.RecoveryToken, 
+			recoverPasswordModel.NewPassword);
 	}
 
 	public Task StudentRegister(StudentRegisterModel studentRegisterModel)

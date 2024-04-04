@@ -171,3 +171,6 @@
 /Users/ibrohim/Desktop/CampusHub/Systems/Api/CampusHub.Api/bin/Debug/net7.0/CampusHub.Services.Identity.dll
 /Users/ibrohim/Desktop/CampusHub/Systems/Api/CampusHub.Api/bin/Debug/net7.0/CampusHub.Services.Identity.pdb
 /Users/ibrohim/Desktop/CampusHub/Systems/Api/CampusHub.Api/bin/Debug/net7.0/CampusHub.Services.Auth.pdb
+/Users/ibrohim/Desktop/CampusHub/Systems/Api/CampusHub.Api/obj/Debug/net7.0/CampusHub.Api.sourcelink.json
+/Users/ibrohim/Desktop/CampusHub/Systems/Api/CampusHub.Api/bin/Debug/net7.0/CampusHub.Services.Email.dll
+/Users/ibrohim/Desktop/CampusHub/Systems/Api/CampusHub.Api/bin/Debug/net7.0/CampusHub.Services.Email.pdb

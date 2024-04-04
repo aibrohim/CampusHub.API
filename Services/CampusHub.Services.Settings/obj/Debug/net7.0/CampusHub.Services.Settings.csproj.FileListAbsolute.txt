@@ -13,3 +13,4 @@
 /Users/ibrohim/Desktop/CampusHub/Services/CampusHub.Services.Settings/obj/Debug/net7.0/refint/CampusHub.Services.Settings.dll
 /Users/ibrohim/Desktop/CampusHub/Services/CampusHub.Services.Settings/obj/Debug/net7.0/CampusHub.Services.Settings.pdb
 /Users/ibrohim/Desktop/CampusHub/Services/CampusHub.Services.Settings/obj/Debug/net7.0/ref/CampusHub.Services.Settings.dll
+/Users/ibrohim/Desktop/CampusHub/Services/CampusHub.Services.Settings/obj/Debug/net7.0/CampusHub.Services.Settings.sourcelink.json

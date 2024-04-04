@@ -1,84 +1,82 @@
-﻿<Properties StartupConfiguration="{8ACB794F-AA6B-44EF-95F7-37FAD505E116}|Default">
-  <MonoDevelop.Ide.Workbench ActiveDocument="Systems/CampusHub.Scheduler/EmailSenderWorker.cs">
+﻿<Properties StartupConfiguration="{A946231A-BE1C-4C84-B098-7E8541E894A0}|Default">
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MonoDevelop.Ide.Workbench ActiveDocument="Systems/Api/CampusHub.Api/appsettings.json">
     <Files>
-      <File FileName="Services/CampusHub.Services.ClubMeetings/Bootstrapper.cs" Line="11" Column="2" />
-      <File FileName="Services/CampusHub.Services.ClubMeetings/ClubMeetings/IClubMeetingService.cs" Line="16" Column="1" />
-      <File FileName="Services/CampusHub.Services.ClubMeetings/ClubMeetings/Models/ClubMeetingModel.cs" Line="27" Column="9" />
-      <File FileName="Data/CampusHub.Context.Entities/ClubMeeting.cs" Line="17" Column="1" />
-      <File FileName="Services/CampusHub.Services.ClubMeetings/ClubMeetings/Models/ClubModel.cs" Line="6" Column="23" />
-      <File FileName="Data/CampusHub.Context/Context/Configuration/ClubMeetingsContextConfiguration.cs" Line="18" Column="75" />
-      <File FileName="Data/CampusHub.Context/Context/Configuration/ClubsContextConfiguration.cs" Line="15" Column="96" />
-      <File FileName="Data/CampusHub.Context.Entities/Club.cs" Line="12" Column="54" />
-      <File FileName="Data/CampusHub.Context.Entities/User/User.cs" Line="23" Column="37" />
-      <File FileName="Services/CampusHub.Services.ClubMeetings/ClubMeetings/Models/CreateModel.cs" Line="18" Column="37" />
-      <File FileName="Services/CampusHub.Services.ClubMeetings/ClubMeetings/Models/StudentModel.cs" Line="1" Column="1" />
-      <File FileName="Services/CampusHub.Services.ClubMeetings/ClubMeetings/Models/UpdateModel.cs" Line="71" Column="56" />
-      <File FileName="Services/CampusHub.Services.ClubMeetings/ClubMeetings/ClubMeetingService.cs" Line="44" Column="32" />
-      <File FileName="Systems/Api/CampusHub.Api/Bootstrapper.cs" Line="33" Column="24" />
-      <File FileName="Systems/Api/CampusHub.Api/Controllers/ClubController (copy).cs" Line="41" Column="6" />
-      <File FileName="Systems/Api/CampusHub.Api/Dockerfile" Line="5" Column="12" />
-      <File FileName="env.api" Line="1" Column="16" />
-      <File FileName="env.worker" Line="1" Column="1" />
-      <File FileName="docker-compose.yml" Line="15" Column="20" />
-      <File FileName="docker-compose.override.yml" Line="32" Column="22" />
-      <File FileName="Systems/Api/CampusHub.Api/appsettings.json" Line="8" Column="7" />
-      <File FileName="Services/CampusHub.Services.Settings/Settings/MainSettings.cs" Line="7" Column="2" />
-      <File FileName="Systems/Api/CampusHub.Api/Configuration/SwaggerConfiguration.cs" Line="149" Column="66" />
-      <File FileName=".dockerignore" Line="1" Column="1" />
-      <File FileName="Systems/Api/CampusHub.Api/Program.cs" Line="22" Column="18" />
-      <File FileName="Data/CampusHub.Context/Bootstrapper.cs" Line="12" Column="38" />
-      <File FileName="Systems/CampusHub.Scheduler/appsettings.json" Line="41" Column="1" />
-      <File FileName="Systems/CampusHub.Scheduler/Program.cs" Line="11" Column="14" />
-      <File FileName="Systems/CampusHub.Scheduler/Worker.cs" Line="20" Column="2" />
-      <File FileName="Systems/CampusHub.Scheduler/EmailSenderWorker.cs" Line="44" Column="22" />
-      <File FileName="Services/CampusHub.Services.Groups/Groups/GroupService.cs" Line="33" Column="75" />
-      <File FileName="Systems/Api/CampusHub.Api/Properties/launchSettings.json" Line="24" Column="24" />
-      <File FileName="Systems/Api/CampusHub.Api/appsettings.Development.json" Line="12" Column="20" />
+      <File FileName="Services/CampusHub.Services.ClubMeetings/Bootstrapper.cs" />
+      <File FileName="Services/CampusHub.Services.ClubMeetings/ClubMeetings/IClubMeetingService.cs" />
+      <File FileName="Services/CampusHub.Services.ClubMeetings/ClubMeetings/Models/ClubMeetingModel.cs" />
+      <File FileName="Data/CampusHub.Context.Entities/ClubMeeting.cs" />
+      <File FileName="Services/CampusHub.Services.ClubMeetings/ClubMeetings/Models/ClubModel.cs" />
+      <File FileName="Data/CampusHub.Context/Context/Configuration/ClubMeetingsContextConfiguration.cs" />
+      <File FileName="Data/CampusHub.Context/Context/Configuration/ClubsContextConfiguration.cs" />
+      <File FileName="Data/CampusHub.Context.Entities/Club.cs" />
+      <File FileName="Data/CampusHub.Context.Entities/User/User.cs" />
+      <File FileName="Services/CampusHub.Services.ClubMeetings/ClubMeetings/Models/CreateModel.cs" />
+      <File FileName="Services/CampusHub.Services.ClubMeetings/ClubMeetings/Models/StudentModel.cs" />
+      <File FileName="Services/CampusHub.Services.ClubMeetings/ClubMeetings/Models/UpdateModel.cs" />
+      <File FileName="Services/CampusHub.Services.ClubMeetings/ClubMeetings/ClubMeetingService.cs" />
+      <File FileName="Systems/Api/CampusHub.Api/Bootstrapper.cs" />
+      <File FileName="Systems/Api/CampusHub.Api/Dockerfile" />
+      <File FileName="env.api" />
+      <File FileName="env.worker" />
+      <File FileName="docker-compose.yml" />
+      <File FileName="docker-compose.override.yml" />
+      <File FileName="Systems/Api/CampusHub.Api/appsettings.json" Line="13" Column="33" />
+      <File FileName="Services/CampusHub.Services.Settings/Settings/MainSettings.cs" />
+      <File FileName="Systems/Api/CampusHub.Api/Configuration/SwaggerConfiguration.cs" />
+      <File FileName=".dockerignore" />
+      <File FileName="Systems/Api/CampusHub.Api/Program.cs" Line="1" Column="1" />
+      <File FileName="Systems/CampusHub.Scheduler/appsettings.json" />
+      <File FileName="Systems/CampusHub.Scheduler/Program.cs" />
+      <File FileName="Systems/CampusHub.Scheduler/Worker.cs" />
+      <File FileName="Systems/CampusHub.Scheduler/EmailSenderWorker.cs" />
+      <File FileName="Services/CampusHub.Services.Groups/Groups/GroupService.cs" />
+      <File FileName="Systems/Api/CampusHub.Api/Properties/launchSettings.json" />
+      <File FileName="Systems/Api/CampusHub.Api/appsettings.Development.json" />
+      <File FileName="Services/CampusHub.Services.Identity/Settings/AuthSettings.cs" />
+      <File FileName="Shared/CampusHub.Library/Settings/Settings.cs" />
+      <File FileName="Data/CampusHub.Context/Context/MainDbContext.cs" />
+      <File FileName="Data/CampusHub.Context/Bootstrapper.cs" />
+      <File FileName="Services/CampusHub.Services.Identity/Bootstrapper.cs" />
+      <File FileName="Services/CampusHub.Services.Identity/Auth/AuthService.cs" Line="62" Column="6" />
+      <File FileName="Services/CampusHub.Services.Identity/Auth/Models/LoginModel.cs" />
+      <File FileName="Services/CampusHub.Services.Clubs/Clubs/Models/CreateModel.cs" />
+      <File FileName="Services/CampusHub.Services.Identity/Auth/Models/StudentRegisterModel.cs" />
+      <File FileName="Services/CampusHub.Services.Clubs/Clubs/ClubService.cs" />
+      <File FileName="Services/CampusHub.Services.Identity/Auth/Models/UserModel.cs" />
+      <File FileName="Services/CampusHub.Services.Identity/Auth/Models/TokenModel.cs" />
+      <File FileName="Services/CampusHub.Services.Identity/Auth/Models/LoginResModel.cs" />
+      <File FileName="Services/CampusHub.Services.Identity/Auth/IAuthService.cs" />
+      <File FileName="Data/CampusHub.Context.Seeder/Seeds/Demo/UsersDemoHelper.cs" />
+      <File FileName="Systems/Api/CampusHub.Api/Controllers/AuthController.cs" />
+      <File FileName="Systems/Api/CampusHub.Api/Controllers/BuildingController.cs" />
+      <File FileName="Services/CampusHub.Services.Buildings/Bootstrapper.cs" />
+      <File FileName="Services/CampusHub.Services.Courses/Bootstrapper.cs" />
+      <File FileName="Systems/Api/CampusHub.Api/appsettings.context.json" />
+      <File FileName="Data/CampusHub.Context.Seeder/Seeds/DbSeeder.cs" />
+      <File FileName="Services/CampusHub.Services.Settings/Settings/SwaggerSettings.cs" />
     </Files>
     <Pads>
       <Pad Id="ProjectPad">
         <State name="__root__">
           <Node name="CampusHub">
-            <Node name="Data" expanded="True">
-              <Node name="CampusHub.Context">
-                <Node name="Context" expanded="True">
-                  <Node name="Configuration" expanded="True" />
-                </Node>
-              </Node>
-            </Node>
-            <Node name="Services">
-              <Node name="CampusHub.Services.Groups">
-                <Node name="Groups" expanded="True" />
-              </Node>
-            </Node>
-            <Node name="Shared" expanded="True" />
-            <Node name="Systems">
-              <Node name="Api">
-                <Node name="CampusHub.Api">
-                  <Node name="appsettings.json" expanded="True" />
-                </Node>
-              </Node>
-              <Node name="Worker">
-                <Node name="CampusHub.Scheduler">
-                  <Node name="EmailSenderWorker.cs" selected="True" />
+            <Node name="Systems" expanded="True">
+              <Node name="Api" expanded="True">
+                <Node name="CampusHub.Api" expanded="True">
+                  <Node name="appsettings.json" selected="True" />
                 </Node>
               </Node>
             </Node>
           </Node>
         </State>
       </Pad>
-      <Pad Id="MonoDevelop.Debugger.WatchPad">
-        <State />
-      </Pad>
     </Pads>
   </MonoDevelop.Ide.Workbench>
-  <MonoDevelop.Ide.DebuggingService.Breakpoints />
-  <MonoDevelop.Ide.ItemProperties.Services.CampusHub.Services.Identity FirstBuild="True" />
-  <MultiItemStartupConfigurations />
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
   <MonoDevelop.Ide.ItemProperties.Systems.Api.CampusHub.Api PreferredExecutionTarget="/Applications/Arc.app" />
-  <MonoDevelop.Ide.ItemProperties.Services.CampusHub.Services.Auth FirstBuild="True" />
   <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
-  <MonoDevelop.Ide.ItemProperties.Systems.Worker.CampusHub.Scheduler PreferredExecutionTarget="MonoDevelop.Default" />
   <DisabledProjects>
     <String>Services/NetSchool.Services.Logger/NetSchool.Services.Logger.csproj</String>
     <String>Services/NetSchool.Services.Settings/NetSchool.Services.Settings.csproj</String>
@@ -86,5 +84,6 @@
     <String>Systems/NetSchool.Api/NetSchool.Api.csproj</String>
     <String>Systems/Api/CampusHub.Api/fasd/fasd.csproj</String>
   </DisabledProjects>
-  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+  <MultiItemStartupConfigurations />
+  <MonoDevelop.Ide.ItemProperties.Systems.Worker.CampusHub.Scheduler PreferredExecutionTarget="MonoDevelop.Default" />
 </Properties>

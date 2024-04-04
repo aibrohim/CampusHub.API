@@ -10,3 +10,4 @@
 /Users/ibrohim/Desktop/CampusHub/Services/CampusHub.Services.Logger/obj/Debug/net7.0/refint/CampusHub.Services.Logger.dll
 /Users/ibrohim/Desktop/CampusHub/Services/CampusHub.Services.Logger/obj/Debug/net7.0/CampusHub.Services.Logger.pdb
 /Users/ibrohim/Desktop/CampusHub/Services/CampusHub.Services.Logger/obj/Debug/net7.0/ref/CampusHub.Services.Logger.dll
+/Users/ibrohim/Desktop/CampusHub/Services/CampusHub.Services.Logger/obj/Debug/net7.0/CampusHub.Services.Logger.sourcelink.json

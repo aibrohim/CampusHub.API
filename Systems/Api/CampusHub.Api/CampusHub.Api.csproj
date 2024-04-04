@@ -13,6 +13,7 @@
     <WarningLevel>4</WarningLevel>
   </PropertyGroup>
   <ItemGroup>
+    <ProjectReference Include="..\..\..\Services\CampusHub.Services.Email\CampusHub.Services.Email.csproj" />
     <ProjectReference Include="..\..\..\Shared\CampusHub.Library\CampusHub.Common.csproj">
       <GlobalPropertiesToRemove></GlobalPropertiesToRemove>
     </ProjectReference>

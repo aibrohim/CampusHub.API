@@ -20,6 +20,7 @@
           "CampusHub.Services.ClubMeetings": "1.0.0",
           "CampusHub.Services.Clubs": "1.0.0",
           "CampusHub.Services.Courses": "1.0.0",
+          "CampusHub.Services.Email": "1.0.0",
           "CampusHub.Services.Groups": "1.0.0",
           "CampusHub.Services.GuestLectures": "1.0.0",
           "CampusHub.Services.Guests": "1.0.0",
@@ -1412,6 +1413,16 @@
           "CampusHub.Services.Courses.dll": {}
         }
       },
+      "CampusHub.Services.Email/1.0.0": {
+        "dependencies": {
+          "CampusHub.Common": "1.0.0",
+          "Microsoft.Extensions.Configuration.Json": "7.0.0",
+          "Microsoft.Extensions.DependencyInjection.Abstractions": "7.0.0"
+        },
+        "runtime": {
+          "CampusHub.Services.Email.dll": {}
+        }
+      },
       "CampusHub.Services.Groups/1.0.0": {
         "dependencies": {
           "AutoMapper": "13.0.1",
@@ -1450,6 +1461,7 @@
           "CampusHub.Common": "1.0.0",
           "CampusHub.Context": "1.0.0",
           "CampusHub.Context.Entities": "1.0.0",
+          "CampusHub.Services.Email": "1.0.0",
           "Microsoft.AspNetCore.Authentication.JwtBearer": "7.0.17",
           "Microsoft.AspNetCore.Identity.EntityFrameworkCore": "7.0.17",
           "Microsoft.Extensions.Configuration.Json": "7.0.0",
@@ -2475,6 +2487,11 @@
       "sha512": ""
     },
     "CampusHub.Services.Courses/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "CampusHub.Services.Email/1.0.0": {
       "type": "project",
       "serviceable": false,
       "sha512": ""

@@ -19,3 +19,4 @@
 /Users/ibrohim/Desktop/CampusHub/Data/CampusHub.Context/obj/Debug/net7.0/CampusHub.Context.pdb
 /Users/ibrohim/Desktop/CampusHub/Data/CampusHub.Context/obj/Debug/net7.0/CampusHub.Context.genruntimeconfig.cache
 /Users/ibrohim/Desktop/CampusHub/Data/CampusHub.Context/obj/Debug/net7.0/ref/CampusHub.Context.dll
+/Users/ibrohim/Desktop/CampusHub/Data/CampusHub.Context/obj/Debug/net7.0/CampusHub.Context.sourcelink.json
