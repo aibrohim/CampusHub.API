@@ -19,7 +19,7 @@ public class EmailService : IEmailService
         var smtpUsername = _smtpSettings.Username;
         var smtpPassword = _smtpSettings.Password;
 
-        var from = new MailAddress(smtpUsername, "Auctionify");
+        var from = new MailAddress(smtpUsername, "CampusHub");
         var to = new MailAddress(toEmail);
         var message = new MailMessage(from, to)
         {

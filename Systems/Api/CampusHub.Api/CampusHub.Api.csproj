@@ -90,6 +90,7 @@
   <ItemGroup>
     <Folder Include="Configuration\" />
     <Folder Include="App\" />
+    <Folder Include="Templates\" />
     <Folder Include="wwwroot\" />
     <Folder Include="Pages\" />
     <Folder Include="Controllers\" />
